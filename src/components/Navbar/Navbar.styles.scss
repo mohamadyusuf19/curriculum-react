@@ -1,0 +1,141 @@
+@import '../../utils/colors.scss';
+
+.navbar {
+    width: 250px;
+    height: 100%;
+    color: red;
+    background: white;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;    
+    transition: 1s;
+    z-index: 200; 
+    box-shadow: 1px 1px 1px 1px #c6c6c6;    
+    .link {
+        margin-bottom: 30px;
+        color: $text-color;
+        text-decoration: none;
+        transition: 0.5s;
+        span {
+            margin-left: 20px;
+        }
+    }
+
+    .link:hover {
+        color: white;
+        width: 100%;
+        background-image: linear-gradient(to left, $primary-color,$secondary-color);        
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 0 0px 0px 0;
+    }
+
+    .active {
+        color: white;
+        width: 100%;
+        background-image: linear-gradient(to left, $primary-color,$secondary-color);        
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 0 0px 0px 0;
+        animation: active 0.2s linear;
+    }
+
+    @keyframes active {
+        0%{
+            transform: scaleX(0)
+        }
+        50%{
+            transform: scaleX(0.5)
+        }
+        100%{
+            transform: scaleX(1)
+        }
+    }
+
+    i {
+        margin-right: 10px;
+        margin-left: 15px; 
+
+    }
+}
+
+@media (max-width: 700px){
+    .navbar {
+        width: 100%;
+        flex-direction: row;
+        top: auto;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        justify-content: space-around;
+        padding-top: 0px;
+
+        span {
+            display: none;
+        }
+
+        .link {
+            padding-top: 13px;
+            width: auto;
+            margin-bottom: 0px;
+            padding-left: 0;
+            width: auto;
+            font-size: 20px;
+        }
+
+        .link:hover {
+            color: white;
+            width: 60px;
+            padding: 0px 0px;
+            height: 60px;
+            background-image: linear-gradient( #5E80FC,#5E80FC);            
+            box-shadow: 0px 5px 5px lightgrey;
+            font-size: 27px;
+            border-radius: 50%;
+            margin-top: -15px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+        }
+
+        .active {
+            border-radius: 50%;
+            background-color: #4694fc;
+            width: 60px;
+            margin-top: -15px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            height: 60px;
+            padding: 0px 0px;
+            background-image: linear-gradient( #5E80FC,#5E80FC);
+            box-shadow: 0px 5px 5px lightgrey;
+            color: white;
+            font-size: 27px;
+            animation: active 0.5s ease-in-out;
+
+        }
+
+        @keyframes active {
+            0%{
+                transform: scale(1)
+            }
+            50%{
+                transform: scale(1.2)
+            }
+            100%{
+                transform: scale(1)
+            }
+        }
+
+        i {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}

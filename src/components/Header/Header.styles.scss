@@ -1,0 +1,32 @@
+@import "../../utils/colors.scss";
+
+.header {
+  background: $primary-color;
+  top: 0;
+  position: fixed;  
+  height: 60px;
+  width: 100%;
+  display: flex;
+  z-index: 10;      
+  align-items: center;
+  padding-left: 20px;
+  .wrap-logo {
+    height: 50px;
+    width: 50px;  
+    border-radius: 25px;
+    background: #fff;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo {
+        height: 40px;
+        width: 40px;        
+      }
+  }  
+  .text-header {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Introduction to functional programming",
+    "keywords": "",
+    "notes": "",
+    "summarize": "",
+    "detail": ["Data and behaviour", "Data in, data out", "Mutations", "Pure functions"]
+  },
+  {
+    "title": "Redux Principles",
+    "keywords": "",
+    "notes": "",
+    "summarize": "",
+    "detail": ["Store, Reducers, Actions", "Unique source of truth"]
+  },
+  {
+    "title": "React-Redux: Provider and Connect",
+    "keywords": "",
+    "notes": "",
+    "summarize": ""
+  },
+  {
+    "title": "Build your own version ofRedux using TDD",
+    "keywords": "",
+    "notes": "",
+    "summarize": ""    
+  },
+  {
+    "title": "Fetching data from the server to Redux",
+    "keywords": "",
+    "notes": "",
+    "summarize": ""    
+  },    
+  {
+    "title": "Configure Redux from scratch in a React app",
+    "keywords": "",
+    "notes": "",
+    "summarize": ""    
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Forms management in React",
+    "keywords": "",
+    "notes": "",
+    "summarize": "",
+    "detail": ["Controlled Components", "Uncontrolled Components"]
+  },
+  {
+    "title": "Authentication",
+    "keywords": "",
+    "notes": "",
+    "summarize": "",
+    "detail": ["JWT", "Authorization, public and private pages"]
+  }  
+]
