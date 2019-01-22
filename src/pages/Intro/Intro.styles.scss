@@ -1,10 +1,38 @@
-.container-modern {
+@import "../../utils/colors.scss";
+
+.container-modern-intro {
     margin-top: 60px;
     margin-left: 250px;
     padding: 10px;
-    .title {
+    .title-top {
+        margin-left: 30px;
         font-weight: 700;
         font-size: 18px;        
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title {        
+            font-weight: 700;
+            font-size: 18px;        
+        }
+        .button-detail {
+            background: $primary-color;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            cursor: pointer;
+            .color-icon {
+                color: #fff;
+            }            
+        }    
+    }    
+    .text-detail {
+        line-height: 2em;
     }
     .italic {
         color: #c0c0c0;

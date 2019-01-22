@@ -1,0 +1,297 @@
+[
+  {
+    "id":1,
+    "title": "Minggu 1 - Modern JavaScript",
+    "master": [
+      {
+        "title": "Modern JavaScript for React - ES6 and beyond",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Let and Const vs Var",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Arrow Functions, Class syntax, Template strings",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Destructuring",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Default parameters, Rest operator, Spread operator",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Iterators and functional programming in JS",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Modules",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Promises",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "ES6 exercise using TDD",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      }
+    ]
+  },
+  {
+    "id":2,
+    "title": "Minggu 2 - Thinking in React",
+    "master": [
+      {
+        "title": "The Imperative to Declarative Shift",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Componentization",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "What is React made up of",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Props & State",
+          "Classes Vs. Functions",
+          "One way data binding"
+        ]
+      },
+      {
+        "title": "Composition",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Virtual DOM and JSX",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "React Components, Elements, and Instances",
+          "JSX and React.createElement"
+        ]
+      },
+      {
+        "title": "Developer tools",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      }
+    ]
+  },
+  {
+    "id":3,
+    "title": "Minggu 3 - Routing & Data Fetching",
+    "master": [
+      {
+        "title": "React Router v4",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Declarative routing",
+          "Implementing a master-detail web application"
+        ]
+      },
+      {
+        "title": "Component lifecycle",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Data management",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Presentational Components Vs. Container Components",
+          "Data fetching"
+        ]
+      }
+    ]
+  },
+  {
+    "id":4,
+    "title": "Minggu 4 - Forms & Auth",
+    "master": [
+      {
+        "title": "Forms management in React",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": ["Controlled Components", "Uncontrolled Components"]
+      },
+      {
+        "title": "Authentication",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": ["JWT", "Authorization, public and private pages"]
+      }
+    ]
+  },
+  {
+    "id":5,
+    "title": "Minggu 5 - Styling in React",
+    "master": [
+      {
+        "title": "CSS Vs. JS",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Styled-components",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Component libraries comparison: SemanticUI, MaterialUI, Rebass, and React-Bootstrap",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Storybook",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      }
+    ]
+  },
+  {
+    "id":6,
+    "title": "Minggu 6 - Introduction to Redux",
+    "master": [
+      {
+        "title": "Introduction to functional programming",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Data and behaviour",
+          "Data in, data out",
+          "Mutations",
+          "Pure functions"
+        ]
+      },
+      {
+        "title": "Redux Principles",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": ["Store, Reducers, Actions", "Unique source of truth"]
+      },
+      {
+        "title": "React-Redux: Provider and Connect",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Build your own version of Redux using TDD",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Fetching data from the server to Redux",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Configure Redux from scratch in a React app",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      }
+    ]
+  },
+  {
+    "id":7,
+    "title": "Minggu 7 - Introduction to Testing in JS",
+    "master": [
+      {
+        "title": "Build your own test framework in JavaScript",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Testing Redux using Jest",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "Mocking and testing API calls",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      },
+      {
+        "title": "White-box testing Vs. Black-box testing",
+        "keywords": "",
+        "notes": "",
+        "summarize": ""
+      }
+    ]
+  },
+  {
+    "id":8,
+    "title": "Minggu 8 - Advanced Pattern I",
+    "master": [
+      {
+        "title": "Functional programming (FP)",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": ["Composing React components"]
+      },
+      {
+        "title": "Advanced React patterns to reuse functionality across components",
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Higher-Order Components (HOCs)",
+          "Declarative composition using the Render Props (AKA function as children)"
+        ]
+      }
+    ]
+  }
+]

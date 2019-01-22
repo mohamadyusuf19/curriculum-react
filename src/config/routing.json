@@ -1,23 +1,28 @@
 [
-    {
-      "title": "React Router v4",
-      "keywords": "",
-      "notes": "",
-      "summarize": "",
-      "detail": ["Declarative routing", "Implementing a master-detail web application"]
-    },
-    {
-      "title": "Component lifecycle",
-      "keywords": "",
-      "notes": "",
-      "summarize": ""
-    },
-    {
-      "title": "Data management",
-      "keywords": "",
-      "notes": "",
-      "summarize": "",
-      "detail": ["Presentational Components Vs. Container Components", "Data fetching"]
-    }    
-  ]
-  
+  {
+    "title": "React Router v4",
+    "keywords": "",
+    "notes": "",
+    "summarize": "",
+    "detail": [
+      "Declarative routing",
+      "Implementing a master-detail web application"
+    ]
+  },
+  {
+    "title": "Component lifecycle",
+    "keywords": "",
+    "notes": "",
+    "summarize": ""
+  },
+  {
+    "title": "Data management",
+    "keywords": "",
+    "notes": "",
+    "summarize": "",
+    "detail": [
+      "Presentational Components Vs. Container Components",
+      "Data fetching"
+    ]
+  }
+]
