@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import _ from 'lodash';
-import "./Form.styles.scss";
+import "./styles.scss";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import Card from "../../components/Card";
 import Data from "../../config/form.json";
 
-class Form extends Component {
+class Index extends Component {
   render() {
     return (
       <>
@@ -40,4 +40,4 @@ class Form extends Component {
   }
 }
 
-export default Form;
+export default Index;

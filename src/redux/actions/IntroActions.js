@@ -1,4 +1,4 @@
-import { GET_DATA_MASTER, GET_EXPAND } from '../constants';
+import { GET_DATA_MASTER, GET_EXPAND, GET_DETAIL_CURRICULUM } from '../constants';
 
 export const Intro = (master, id, expand) => {
     return dispatch => {
@@ -16,6 +16,15 @@ export const expandActions = () => {
         dispatch({
             type: GET_EXPAND,
             payload: false
+        })
+    }
+}
+
+export const detailCurriculumActions = (data) => {
+    return dispatch => {
+        dispatch({
+            type: GET_DETAIL_CURRICULUM,
+            payload: data
         })
     }
 }

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import _ from "lodash";
+import { Link } from "react-router-dom";
 import "./Intro.styles.scss";
 import { connect } from "react-redux";
-import { Intro, expandActions } from "../../redux/actions/IntroActions";
+import { Intro, expandActions, detailCurriculumActions } from "../../redux/actions/IntroActions";
 import Card from "../../components/Card";
 import Data from "../../config/master.json";
 
@@ -49,7 +50,16 @@ class IntroCard extends Component {
                 ? data.map(detail => {
                     return (
                       <ul key={detail.title}>
-                        <li className="text-detail">{detail.title} <i className="italic"> [see detail]</i></li>
+                        <li className="text-detail">
+                          {detail.title}{" "}
+                          <Link
+                            to="/detail"
+                            className="italic"
+                            onClick={() => this.props.detailCurriculumActions(detail)}
+                          >                            
+                            [see detail]
+                          </Link>
+                        </li>
                         {_.isArray(detail.detail)
                           ? detail.detail.map((i, index) => {
                               return (
@@ -84,5 +94,9 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  { Intro, expandActions }
+  { 
+    Intro, 
+    expandActions, 
+    detailCurriculumActions
+  }
 )(IntroCard);

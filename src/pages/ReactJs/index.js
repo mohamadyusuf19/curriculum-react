@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import "./styles.scss";
+import _ from "lodash";
+import "./Intro.styles.scss";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
-import Card from "../../components/Card";
+import IntroCard from "./IntroCard";
 
 class Index extends Component {
   render() {
@@ -10,10 +11,9 @@ class Index extends Component {
       <>
         <Header />
         <Navbar />
-        <div className="container-modern">
-          <Card>
-            <p className="title">Selamat Datang</p>            
-          </Card>
+        <div className="container-modern-intro">
+          <p className="title-top">Javascript Curriculum</p>
+          <IntroCard/>
         </div>
       </>
     );

@@ -1,0 +1,16 @@
+@import "../../utils/colors.scss";
+
+.container-modern-detail {
+    margin-top: 60px;
+    margin-left: 250px;
+    padding: 10px;
+    .title-top {
+        margin-left: 30px;
+        font-weight: 700;
+        font-size: 18px;        
+    }
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

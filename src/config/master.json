@@ -1,6 +1,6 @@
 [
   {
-    "id":1,
+    "id": 1,
     "title": "Minggu 1 - Modern JavaScript",
     "master": [
       {
@@ -11,8 +11,12 @@
       },
       {
         "title": "Let and Const vs Var",
-        "keywords": "",
-        "notes": "",
+        "keywords": "scope",
+        "notes": [          
+          "var adalah deklarasi variabel global.",          
+          "let hampir sama dengan var namun hanya mencakup pada block scope.",          
+          "const hanya bisa dipakai di dalam block scope dan bersifat constant tidak bisa di ubah-ubah."
+        ],
         "summarize": ""
       },
       {
@@ -60,7 +64,7 @@
     ]
   },
   {
-    "id":2,
+    "id": 2,
     "title": "Minggu 2 - Thinking in React",
     "master": [
       {
@@ -111,7 +115,7 @@
     ]
   },
   {
-    "id":3,
+    "id": 3,
     "title": "Minggu 3 - Routing & Data Fetching",
     "master": [
       {
@@ -143,7 +147,7 @@
     ]
   },
   {
-    "id":4,
+    "id": 4,
     "title": "Minggu 4 - Forms & Auth",
     "master": [
       {
@@ -163,7 +167,7 @@
     ]
   },
   {
-    "id":5,
+    "id": 5,
     "title": "Minggu 5 - Styling in React",
     "master": [
       {
@@ -193,7 +197,7 @@
     ]
   },
   {
-    "id":6,
+    "id": 6,
     "title": "Minggu 6 - Introduction to Redux",
     "master": [
       {
@@ -242,7 +246,7 @@
     ]
   },
   {
-    "id":7,
+    "id": 7,
     "title": "Minggu 7 - Introduction to Testing in JS",
     "master": [
       {
@@ -272,7 +276,7 @@
     ]
   },
   {
-    "id":8,
+    "id": 8,
     "title": "Minggu 8 - Advanced Pattern I",
     "master": [
       {

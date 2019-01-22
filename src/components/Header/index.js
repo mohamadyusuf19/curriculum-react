@@ -9,7 +9,7 @@ export default function index() {
             <Link className="wrap-logo" to="/">
                 <img src={logoIcon} alt="logo" className="logo"/>            
             </Link>                    
-            <p className="text-header">Curriculum React JS</p>
+            <p className="text-header">Curriculum JavaScript Academy</p>
         </div>
     )
 }
