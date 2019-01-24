@@ -1,16 +1,148 @@
 @import "../../utils/colors.scss";
 
 .container-modern-detail {
-    margin-top: 60px;
-    margin-left: 250px;
-    padding: 10px;
-    .title-top {
-        margin-left: 30px;
-        font-weight: 700;
-        font-size: 18px;        
-    }
-    .title {
+  margin-top: 60px;
+  margin-left: 250px;
+  padding: 10px;
+  .title-top {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .wrapper-title {
+      width: 50%;
+      background-image: linear-gradient(
+        to left,
+        $primary-color,
+        $secondary-color
+      );
+      padding-left: 30px;
+      animation: animasi 0.5s forwards;       
+      .title {
+        font-weight: 500;
         font-size: 16px;
-        font-weight: bold;
+        color: #fff;
+      }
     }
+    @keyframes animasi {
+      0% {
+        transform: translateX(-70px);
+      }            
+      100% {
+        transform: translateX(-30px);
+      }
+    }    
+    .button-row {
+      display: flex;
+      .button-detail {
+        background: $primary-color;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        animation: rotasi 1s ease-in-out forwards;
+        cursor: pointer;
+        .color-icon {
+          color: #fff;
+        }
+      }
+      .button-detail-right {
+        margin-left: 10px;
+        background: $primary-color;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        animation: rotasi-right 1s ease-in-out forwards;
+        cursor: pointer;
+        .color-icon {
+          color: #fff;
+        }
+      }
+      .white {
+        background: #fff;
+        cursor: default;
+      }
+    }
+
+    @keyframes rotasi {
+      0% {
+        transform: rotate(-180deg);
+      }
+      100% {
+        transform: rotate(-90deg);
+      }
+    }
+    @keyframes rotasi-right {
+      0% {
+        transform: rotate(180deg);
+      }
+      100% {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  .notes {
+    border-right: solid 3px brown;
+    border-left: solid 3px brown;
+    border-top: solid 3px brown;
+    border-top-left-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .item {
+      line-height: 2em;
+      border-bottom: solid 1px #262626;
+      display: block;
+    }
+    .list {
+      margin-left: -30px !important;
+    }
+  }
+  .exercise {
+    border-right: solid 3px brown;
+    border-left: solid 3px brown;
+    border-bottom: solid 3px brown;
+    border-bottom-left-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    .title-keyword {
+      font-size: 13px;
+      line-height: 1.5em;
+    }
+  }
+  .summarize {
+    padding: 30px;
+    background: #c6c6c6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .text-summarize {
+      line-height: 2em;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container-modern-detail {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 10px;
+  }
 }

@@ -1,13 +1,27 @@
 .container-modern {
     margin-top: 60px;
     margin-left: 250px;
-    padding: 10px;
+    padding: 50px;
     .title {
-        font-weight: 700;
-        font-size: 18px;        
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 16px;        
+        display: block;
     }
     .italic {
         color: #c0c0c0;
         cursor: pointer;
+    }
+    .content {
+        line-height: 1.5em;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .finish {
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }

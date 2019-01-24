@@ -1,7 +1,36 @@
 .container {
     background: #fff;        
-    margin: 30px;       
+    margin-left: 30px;    
+    margin-right: 30px;
     padding: 10px 30px 10px 30px;
     box-shadow: 0px 0px 1px 1px #c6c6c6;
-    border-left: solid 3px #000;
+    border-left: solid 3px #000;   
+    margin-bottom: 10px;
+}
+
+// @keyframes posisi {
+//     0% {
+//         position: relative;
+//         top: 0px;
+//     }
+//     33% {
+//         position: relative;
+//         top: 100px;
+//     }
+//     66% {
+//         position: relative;
+//         top: -100px;
+//     }
+//     100% {
+//         position: relative;
+//         top: 0px;
+//     }
+// }
+
+@media(max-width:700px) {
+    .container {
+        background: #fff;        
+        margin-left: 0px;    
+        margin-right: 0px;
+    }
 }

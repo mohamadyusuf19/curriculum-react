@@ -12,9 +12,9 @@ class Index extends Component {
         <Header />
         <Navbar />
         <div className="container-modern-intro">
-          <p className="title-top">Javascript Curriculum</p>
-          <IntroCard/>
-        </div>
+          <p className="title-top">React JS Curriculum</p>
+          <IntroCard/>          
+        </div>        
       </>
     );
   }

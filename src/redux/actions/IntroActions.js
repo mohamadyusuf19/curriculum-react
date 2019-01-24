@@ -1,12 +1,25 @@
-import { GET_DATA_MASTER, GET_EXPAND, GET_DETAIL_CURRICULUM } from '../constants';
+import { GET_DATA_MASTER, GET_EXPAND, GET_DETAIL_CURRICULUM, GET_DATA_MASTER_NATIVE } from '../constants';
 
-export const Intro = (master, id, expand) => {
+export const Intro = (master, id, expand, navigate) => {
     return dispatch => {
         dispatch({
             type: GET_DATA_MASTER,
             payload: master,
             id,
-            expand
+            expand,
+            navigate
+        })
+    }
+}
+
+export const IntroNative = (master, id, expand, navigate) => {
+    return dispatch => {
+        dispatch({
+            type: GET_DATA_MASTER_NATIVE,
+            payload: master,
+            id,
+            expand,
+            navigate            
         })
     }
 }
@@ -20,11 +33,12 @@ export const expandActions = () => {
     }
 }
 
-export const detailCurriculumActions = (data) => {
+export const detailCurriculumActions = (data, indexId) => {
     return dispatch => {
         dispatch({
             type: GET_DETAIL_CURRICULUM,
-            payload: data
+            payload: data,
+            indexId
         })
     }
 }

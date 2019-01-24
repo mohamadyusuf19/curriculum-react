@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "title": "Foundation, Navigation and Animations",
+      "master": [
+        {
+          "title": "Foundation",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+            "Architecture & Project setup",
+            "Layout",
+            "Styling",
+            "Using Lists",
+            "Forms"
+          ]
+        },
+        {
+          "title": "Navigation",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+              "Types of navigations",
+              "react-navigation"
+          ]
+        },
+        {
+          "title": "Animations",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+              "Basic Animations",
+              "Animated API",
+              "Interpolations, Linear animations, and Easings",
+              "Composing animations"
+          ]
+        }        
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gestures, Offline, Assets Management & Push Notifications",
+      "master": [
+        {
+          "title": "Gestures",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+              "JSResponder",
+              "PanGestureHandler",
+              "RotationGestureHandler",
+              "PinchGestureHandler",
+              "Gestures Lifecycle",
+              "Composing Handlers",
+              "react-native-gesture-handlerlimitations"
+          ]
+        },
+        {
+          "title": "Componentization",
+          "keywords": "",
+          "notes": "",
+          "summarize": ""
+        },
+        {
+          "title": "Handling Offline & Assets Management",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+            "Assets Tool recommendations",
+            "App icons",
+            "Splash screen for iOS and Android",
+            "Other assets per platform",
+            "Using Netinfo",
+            "Handling offline requests",
+            "Notifying the user of their connection status"
+          ]
+        },
+        {
+          "title": "Push Notifications",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+              "Basic Setup using Expo",
+              "Sending Notifications to iOS",
+              "Sending Notifications to Android using FCM",
+              "Third Party Services"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Testing, Native Modules & Release to Production",
+      "master": [
+        {
+          "title": "Testing in React Native",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+            "What to test",
+            "Organizing tests",
+            "Types of tests in RN",
+            "End to End testing with Detox"
+          ]
+        },
+        {
+          "title": "Native Modules",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+              "Detach from expo",
+              "Setup",
+              "iOS calendar module example",
+              "Sending events from iOS to JavaScript",
+              "Android Toast module example",
+              "Sending events from Android to JavaScript"
+          ]
+        },
+        {
+          "title": "Release to Production",
+          "keywords": "",
+          "notes": "",
+          "summarize": "",
+          "detail": [
+            "iOS and Android Developer Account setup",
+            "Build the app for production to iOS and submit to App Store",
+            "Build Android app to production and Upload app",
+            "Over the Air Updates",
+            "Introducing fastlane & Using CI to build your apps"
+          ]
+        }
+      ]
+    }
+]
+  

@@ -7,18 +7,7 @@ import { Intro, expandActions, detailCurriculumActions } from "../../redux/actio
 import Card from "../../components/Card";
 import Data from "../../config/master.json";
 
-class IntroCard extends Component {
-  constructor() {
-    super();
-    this.state = {
-      expand: false
-    };
-  }
-
-  onButton = () => {
-    this.setState({ expand: !this.state.expand });
-  };
-
+class IntroCard extends Component {  
   render() {
     console.log(this.props.data);
     const { expand, data } = this.props;
@@ -29,35 +18,37 @@ class IntroCard extends Component {
           return (
             <Card key={id}>
               <div className="row">
-                <p className="title">{title}</p>
+                <div className={expand && this.props.id == index + 1 ? "wrapper-title animasi" : "wrapper-title"}>
+                  <p className="title">Session {index+1} - {title}</p>
+                </div>                
                 {expand && this.props.id == index + 1 ? (
                   <div
-                    className="button-detail"
+                    className="button-detail button-rotate-up"
                     onClick={() => this.props.expandActions()}
                   >
                     <i className="fa fa-angle-up color-icon" />
                   </div>
                 ) : (
                   <div
-                    className="button-detail"
+                    className="button-detail-active button-rotate"
                     onClick={() => this.props.Intro(master, id, true)}
                   >
-                    <i className="fa fa-angle-down color-icon" />
+                    <i className="fa fa-angle-up color-icon" />
                   </div>
                 )}
               </div>
               {expand && this.props.id == index + 1
-                ? data.map(detail => {
+                ? data.map((detail, indexId) => {
                     return (
                       <ul key={detail.title}>
                         <li className="text-detail">
                           {detail.title}{" "}
                           <Link
                             to="/detail"
-                            className="italic"
-                            onClick={() => this.props.detailCurriculumActions(detail)}
+                            className="italic"                            
+                            onClick={() => [this.props.detailCurriculumActions(detail,indexId+1), this.props.Intro(master, id, true, 'reactjs')]}
                           >                            
-                            [see detail]
+                            [ lihat detail ]
                           </Link>
                         </li>
                         {_.isArray(detail.detail)

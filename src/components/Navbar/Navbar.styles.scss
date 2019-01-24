@@ -22,15 +22,17 @@
         span {
             margin-left: 20px;
         }
+        .icon {
+            height: 20px;
+            width: 20px;
+        }
     }
 
     .link:hover {
         color: white;
         width: 100%;
         background-image: linear-gradient(to left, $primary-color,$secondary-color);        
-        padding: 10px 0px;
-        font-size: 18px;
-        font-weight: 500;
+        padding: 10px 0px;        
         border-radius: 0 0px 0px 0;
     }
 
@@ -38,11 +40,9 @@
         color: white;
         width: 100%;
         background-image: linear-gradient(to left, $primary-color,$secondary-color);        
-        padding: 10px 0px;
-        font-size: 18px;
-        font-weight: 500;
+        padding: 10px 0px;        
         border-radius: 0 0px 0px 0;
-        animation: active 0.2s linear;
+        // animation: active 0.2s linear;
     }
 
     @keyframes active {
@@ -93,7 +93,7 @@
             width: 60px;
             padding: 0px 0px;
             height: 60px;
-            background-image: linear-gradient( #5E80FC,#5E80FC);            
+            background-image: linear-gradient( $primary-color,$secondary-color);            
             box-shadow: 0px 5px 5px lightgrey;
             font-size: 27px;
             border-radius: 50%;
@@ -105,7 +105,7 @@
 
         .active {
             border-radius: 50%;
-            background-color: #4694fc;
+            background-color: $primary-color;
             width: 60px;
             margin-top: -15px;
             display: flex;
@@ -113,7 +113,7 @@
             align-content: center;
             height: 60px;
             padding: 0px 0px;
-            background-image: linear-gradient( #5E80FC,#5E80FC);
+            background-image: linear-gradient( $primary-color,$secondary-color);
             box-shadow: 0px 5px 5px lightgrey;
             color: white;
             font-size: 27px;

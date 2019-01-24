@@ -1,28 +1,35 @@
 [
   {
     "id": 1,
-    "title": "Minggu 1 - Modern JavaScript",
+    "title": "Modern JavaScript",    
     "master": [
       {
         "title": "Modern JavaScript for React - ES6 and beyond",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "keywords": ["JavaScript(JS)","es6 2015"],
+        "notes": [
+          "React adalah sebuah library yang digunakan untuk membuat aplikasi dengan bahasa pemrograman JavaScript",
+          "Standarisasi JavaScript sekarang memakai es6 2015"          
+        ],
+        "summarize": "Untuk memulai belajar React diharuskan terlebih dahulu harus mengerti bahasa pemrograman JavaScript, selain itu juga di haruskan untuk memahami sintak-sintak es6 2015. Seperti let, const, template literal, arrow functions, class syntax, destructuring, default parameters, Rest operator, Spread operator, module dan promises. Karena dalam pembuatan aplikasi-aplikasi JavaScript, kita akan sering menggunakan sintaks-sintaks es6 kedepannya."
       },
       {
         "title": "Let and Const vs Var",
-        "keywords": "scope",
+        "keywords": ["var","let","const","scope"],
         "notes": [          
           "var adalah deklarasi variabel global.",          
           "let hampir sama dengan var namun hanya mencakup pada block scope.",          
-          "const hanya bisa dipakai di dalam block scope dan bersifat constant tidak bisa di ubah-ubah."
+          "const hanya bisa dipakai di dalam block scope dan bersifat constant tidak bisa dirubah.",
+          "selain const, deklarasi variabel bisa dirubah."
         ],
-        "summarize": ""
+        "summarize": "pada dasarnya deklarasi variabel di javascript hanya terbagi ke dalam 3 bagian var, let, dan const. sesuai dengan scope dan kegunaannya. rekomendasi untuk sekarang karena hampir semua browser telah support ES6 2015 maka untuk deklarasi variabel lebih direkomendasikan untuk memakai let daripada var. Alasannya sederhana karena var lebih global scope maka jika kita mendeklarasikan variabel dengan var di awal code dan jika code ini sudah jutaan dan kita deklarasikan dengan nama yang sama maka kode yang berada di awal tadi akan tertimpa. Sehingga menyebabkan kode tadi sudah tidak berfungsi lagi."
       },
       {
-        "title": "Arrow Functions, Class syntax, Template strings",
-        "keywords": "",
-        "notes": "",
+        "title": "Arrow Functions, Class syntax, Template literal",
+        "keywords": ["arrow function", "class", "template literal"],
+        "notes": [
+          "Arrow function merupakan penyederhanaan penulisan function di JavaScript",
+          "Simbol arrow function adalah => "
+        ],
         "summarize": ""
       },
       {
@@ -65,7 +72,7 @@
   },
   {
     "id": 2,
-    "title": "Minggu 2 - Thinking in React",
+    "title": "Thinking in React",
     "master": [
       {
         "title": "The Imperative to Declarative Shift",
@@ -116,7 +123,7 @@
   },
   {
     "id": 3,
-    "title": "Minggu 3 - Routing & Data Fetching",
+    "title": "Routing & Data Fetching",
     "master": [
       {
         "title": "React Router v4",
@@ -148,7 +155,7 @@
   },
   {
     "id": 4,
-    "title": "Minggu 4 - Forms & Auth",
+    "title": "Forms & Auth",
     "master": [
       {
         "title": "Forms management in React",
@@ -168,10 +175,10 @@
   },
   {
     "id": 5,
-    "title": "Minggu 5 - Styling in React",
+    "title": "Styling in React",
     "master": [
       {
-        "title": "CSS Vs. JS",
+        "title": "CSS Vs JS",
         "keywords": "",
         "notes": "",
         "summarize": ""
@@ -198,7 +205,7 @@
   },
   {
     "id": 6,
-    "title": "Minggu 6 - Introduction to Redux",
+    "title": "Introduction to Redux",
     "master": [
       {
         "title": "Introduction to functional programming",
@@ -247,7 +254,7 @@
   },
   {
     "id": 7,
-    "title": "Minggu 7 - Introduction to Testing in JS",
+    "title": "Introduction to Testing in JS",
     "master": [
       {
         "title": "Build your own test framework in JavaScript",
@@ -277,7 +284,7 @@
   },
   {
     "id": 8,
-    "title": "Minggu 8 - Advanced Pattern I",
+    "title": "Advanced Pattern I",
     "master": [
       {
         "title": "Functional programming (FP)",
