@@ -18,12 +18,13 @@
         },
         {
           "title": "Navigation",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
+          "keywords": ["react-navigation", "react-native-router-flux"],
+          "notes": ["Salah satu hal yang penting untuk diketahui dalam membangun sebuah aplikasi mobile adalah navigasi, sebab dengan navigasi kita bisa berinteraksi antar satu component dengan component lainnya atau antara satu screen dengan screen lainnya.", "Untuk membuat sebuah navigasi kita dapat menggunakan package yang telah banyak digunakan bahkan sampai pada tingkatan production yakni React-navigation."],
+          "summarize": "Navigator component adalah sebuah component yang digunakan React Native untuk membuat navigasi ke views, di-release bersamaan dengan React Native pada tahun 2015, namun seiring perkembangan komunitas React Native yang terus bertumbuh memunculkan navigator yang pengimplementasiannya jauh lebih baik ketimbang pendahulunya, serta dibuat dalam bentuk package yang tersedia dan di-install melalui npm. Salah satu package navigation tersebut adalah React-navigation.",
           "detail": [
               "Types of navigations",
-              "react-navigation"
+              "react-navigation",
+              "react-native-router-flux"
           ]
         },
         {
