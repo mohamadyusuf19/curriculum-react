@@ -54,7 +54,7 @@ class Detail extends Component {
               <div className="row">
                 <div className="wrapper-title">
                   <p className="title">{dataDetail.title}</p>
-                </div>                
+                </div>
                 <div className="button-row">
                   <NavLink
                     to={indexId === 1 ? `/${navigate}` : "/detail"}
@@ -89,16 +89,18 @@ class Detail extends Component {
                     })}
                   </div>
                   {dataDetail.keywords.length > 0 ? (
-                    <Card>
-                      <p>Keywords</p>
-                      {dataDetail.keywords.map(item => {
-                        return (
-                          <ul className="list" key={item}>
-                            <li>{item}</li>
-                          </ul>
-                        );
-                      })}
-                    </Card>
+                    <div className="keywords">
+                      <Card>
+                        <p>Keywords</p>
+                        {dataDetail.keywords.map(item => {
+                          return (
+                            <ul className="list" key={item}>
+                              <li>{item}</li>
+                            </ul>
+                          );
+                        })}
+                      </Card>
+                    </div>
                   ) : null}
                 </div>
               ) : null}

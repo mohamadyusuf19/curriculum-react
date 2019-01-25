@@ -4,6 +4,7 @@ import Intro from '../pages/Intro';
 import Detail from '../pages/DetailCurriculum';
 import ReactJs from '../pages/ReactJs';
 import ReactNative from '../pages/ReactNative';
+import Java from '../pages/Java';
 
 export default function index() {
     return (
@@ -13,6 +14,7 @@ export default function index() {
                 <Route path="/reactjs" component={ReactJs} />
                 <Route path="/detail" component={Detail} />
                 <Route path="/reactnative" component={ReactNative} />
+                <Route path="/java" component={Java} />
             </Switch>
         </BrowserRouter>
     )

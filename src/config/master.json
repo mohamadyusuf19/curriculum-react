@@ -10,7 +10,13 @@
           "React adalah sebuah library yang digunakan untuk membuat aplikasi dengan bahasa pemrograman JavaScript",
           "Standarisasi JavaScript sekarang memakai es6 2015"          
         ],
-        "summarize": "Untuk memulai belajar React diharuskan terlebih dahulu harus mengerti bahasa pemrograman JavaScript, selain itu juga di haruskan untuk memahami sintak-sintak es6 2015. Seperti let, const, template literal, arrow functions, class syntax, destructuring, default parameters, Rest operator, Spread operator, module dan promises. Karena dalam pembuatan aplikasi-aplikasi JavaScript, kita akan sering menggunakan sintaks-sintaks es6 kedepannya."
+        "summarize": "Untuk memulai belajar React diharuskan terlebih dahulu harus mengerti bahasa pemrograman JavaScript, selain itu juga di haruskan untuk memahami sintak-sintak es6 2015. Seperti let, const, template literal, arrow functions, class syntax, destructuring, default parameters, Rest operator, Spread operator, module dan promises. Karena dalam pembuatan aplikasi-aplikasi JavaScript, kita akan sering menggunakan sintaks-sintaks es6 kedepannya.",
+        "usable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
       },
       {
         "title": "Let and Const vs Var",

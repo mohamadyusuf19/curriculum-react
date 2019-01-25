@@ -143,6 +143,19 @@
   .container-modern-detail {
     margin-top: 0px;
     margin-left: 0px;
-    padding: 10px;
+    padding: 5px;
+    .row {    
+      display: block;        
+      .wrapper-title {
+        width: 100%;  
+        padding: 2px;      
+        .title {          
+          font-size: 13px;
+        }
+      }      
+    }
+    .notes {
+      display: block;      
+    }
   }
 }
