@@ -80,7 +80,13 @@
         "title": "Modules",
         "keywords": ["import", "define", "require"],
         "notes": ["Modul adalah bagian dari program yang menentukan bagian mana yang menjadi sandarannya dan fungsionalitas apa yang disediakan untuk modul lain untuk digunakan", "Memecah-mecah kode program menjadi banyak bagian-bagian yang lebih kecil. Biasanya bagian kecil dari kode ini disebut dengan nama modul. Setiap kode modul memiliki peranan spesifik, dan biasanya sebuah modul terdiri dari beberapa fungsi. Semakin spesifik dan sejenis fungsi yang terkumpul di dalam sebuah modul semakin baik. Tingkat kecocokan fungsi-fungsi di dalam modul ini kita kenal dengan istilah cohesion.", "Setelah kode program dipecah menjadi bagian-bagian kecil, masing-masing komponen kecil ini kemudian dapat kita hubungkan untuk menjadi sebuah komponen yang lebih besar atau bahkan program jadi." ],
-        "summarize": "Pembuatan modul dari kode program dapat dilakukan dengan banyak cara, seperti mengumpulkan fungsi-fungsi ke dalam kelas atau objek, dan kmeudian memasukkan kode tersebut ke dalam sebuah file. Bagian kedua, di mana kita dapat memanggil modul-modul lain dengan mudah, biasanya didukung secara langsung oleh bahasa pemrograman yang digunakan. Contohnya, pada bahasa Java kita memiliki perintah import dan pada C# kita memiliki perintah using. "
+        "summarize": "Pembuatan modul dari kode program dapat dilakukan dengan banyak cara, seperti mengumpulkan fungsi-fungsi ke dalam kelas atau objek, dan kmeudian memasukkan kode tersebut ke dalam sebuah file. Bagian kedua, di mana kita dapat memanggil modul-modul lain dengan mudah, biasanya didukung secara langsung oleh bahasa pemrograman yang digunakan. Contohnya, pada bahasa Java kita memiliki perintah import dan pada C# kita memiliki perintah using. ",
+        "usable_link": [
+          {
+            "url": "https://bertzzie.com/knowledge/javascript-lanjut/Javascript-Module-System.html",
+            "title": "Modules"
+          }
+        ]
       },
       {
         "title": "Promises",
