@@ -53,8 +53,8 @@
       {
         "title": "Destructuring",
         "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "notes": "Destructuring/Destrukturisasi adalah cara yang mudah untuk mengekstraksi beberapa nilai dari variabel, objek dan Array yang tersimpan. Itu dapat digunakan di lokasi yang menerima data. Cara mengekstrak yang ditentukan melalui nilai pola",
+        "summarize": "Singkatnya, destructuring itu adalah bagaimana kita menyusun nilai dari variabel, object maupun array, menjadi lebih terstruktur"
       },
       {
         "title": "Default parameters, Rest operator, Spread operator",
