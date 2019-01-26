@@ -28,8 +28,8 @@ class Index extends Component {
               <Card key={id}>
                 <div className="row">
                   <div className={expandJava && this.props.idJava == index + 1 ? "wrapper-title animasi" : "wrapper-title"}>
-                    <p className="title">Session {index+1} - {title}</p>
-                  </div>                  
+                    <p className="title">Session {index + 1} - {title}</p>
+                  </div>
                   {expandJava && this.props.idJava == index + 1 ? (
                     <div
                       className="button-detail button-rotate-up"
@@ -38,49 +38,49 @@ class Index extends Component {
                       <i className="fa fa-angle-up color-icon" />
                     </div>
                   ) : (
-                    <div
-                      className="button-detail-active button-rotate"
-                      onClick={() => this.props.IntroJava(master, id, true, 'java')}
-                    >
-                      <i className="fa fa-angle-up color-icon" />
-                    </div>
-                  )}
+                      <div
+                        className="button-detail-active button-rotate"
+                        onClick={() => this.props.IntroJava(master, id, true, 'java')}
+                      >
+                        <i className="fa fa-angle-up color-icon" />
+                      </div>
+                    )}
                 </div>
                 {expandJava && this.props.idJava == index + 1
                   ? dataJava.map((detail, indexId) => {
-                      return (
-                        <ul key={detail.title}>
-                          <li className="text-detail">
-                            {detail.title}{" "}
-                            <Link
-                              to="/detail"
-                              className="italic"
-                              onClick={() =>
-                                [this.props.detailCurriculumActions(detail, indexId+1), this.props.IntroJava(master, id, true, 'reactnative')]
-                              }
-                            >
-                              [ lihat detail ]
+                    return (
+                      <ul key={detail.title}>
+                        <li className="text-detail">
+                          {detail.title}{" "}
+                          <Link
+                            to="/detail"
+                            className="italic"
+                            onClick={() =>
+                              [this.props.detailCurriculumActions(detail, indexId + 1), this.props.IntroJava(master, id, true, 'reactnative')]
+                            }
+                          >
+                            [ lihat detail ]
                             </Link>
-                          </li>
-                          {_.isArray(detail.detail)
-                            ? detail.detail.map((i, index) => {
-                                return (
-                                  <ul key={index}>
-                                    <li className="text-detail">
-                                      {index + 1}. {i}
-                                    </li>
-                                  </ul>
-                                );
-                              })
-                            : null}
-                        </ul>
-                      );
-                    })
+                        </li>
+                        {_.isArray(detail.detail)
+                          ? detail.detail.map((i, index) => {
+                            return (
+                              <ul key={index}>
+                                <li className="text-detail">
+                                  {index + 1}. {i}
+                                </li>
+                              </ul>
+                            );
+                          })
+                          : null}
+                      </ul>
+                    );
+                  })
                   : null}
               </Card>
             );
           })}
-        </div>        
+        </div>
       </>
     );
   }
@@ -89,9 +89,9 @@ class Index extends Component {
 const mapStateToProps = state => {
   const { dataJava, idJava, expandJava } = state.introReducer;
   return {
-    dataJava,    
+    dataJava,
     idJava,
-    expandJava    
+    expandJava
   };
 };
 
