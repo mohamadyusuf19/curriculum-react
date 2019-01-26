@@ -67,7 +67,13 @@
           "Rest Parameter sama dengan Spread Operator diawali dengan tanda titik tiga, namun pada rest parameter",
           "hanya mengambil nilai sisa dari sebuah array"
         ],
-        "summarize": "Dengan menggunakan Default parameter, spread operator dan rest parameter dari es6 membuat kode kita menjadi lebih clean code"
+        "summarize": "Dengan menggunakan Default parameter, spread operator dan rest parameter dari es6 membuat kode kita menjadi lebih clean code",
+        "usable_link": [
+          {
+            "url": "https://css-tricks.com/lets-learn-es2015/#es2015-rest%20parameters",
+            "title": "more detail about.."
+          }
+        ]
       },
       {
         "title": "Iterators and functional programming in JS",
