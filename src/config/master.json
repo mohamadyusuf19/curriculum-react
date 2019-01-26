@@ -64,9 +64,13 @@
       },
       {
         "title": "Promises",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "keywords":[".then",".catch"],
+        "notes": [
+          "Promise adalah built in method or built in function yang terdapat pada java script yang berguna untuk menangkap event atau suatu kejadian ketika menggunakan asyncronous java script , dimana kita dapat melihat suatu event berhasil dilakukan atau gagal untuk dilakukan ",
+          "untuk menggunakan mendapatkan nilai true , atau menangkap bahwa event berhasil dilakukan menggunakan methode .then",
+          "untuk mendapatkan nilai false , atau menangkap bahwa event gagal dilakukan menggunakan methode .cacth"
+        ],
+        "summarize": "Promise berguna untuk mendapatkan nilai true atau false , dimana pada saat kita melakukan asyncronous javascript kita dapat dengan mudah untuk mendapatkan hasil apakah event yang  kita lakukan berhasil dilakukan atau gagal dilakukan "
       },
       {
         "title": "ES6 exercise using TDD",
