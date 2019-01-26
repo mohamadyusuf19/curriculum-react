@@ -41,13 +41,34 @@
         "title": "Arrow Functions, Class syntax, Template literal",
         "keywords": [
           "arrow function",
-          "template literal"
+          "template literal",
+          " Class syntax"
         ],
         "notes": [
           "Arrow function merupakan penyederhanaan penulisan function di JavaScript",
-          "Simbol arrow function adalah => "
+          "Simbol arrow function adalah => ",
+          "Salah satu fitur yang banyak digunakan dari ES6 adalah arrow function. Dari namanya kita sudah bisa mengira, ini adalah fitur pada function. Salah satu kegunaan dari fitur ini adalah syntax javascript kita menjadi lebih ringkas.",
+          "Salah satu keuntungan kembali kita menggunakan arrow function adalah kita bisa menggunakan ‘this’ tanpa perlu membuat that = this. Ada kawan-kawan yang pernah pakai that = this?",
+          "Syntax Arrow Function pada ES6 secara umum seperti ini. () => { ... } // no parameter",
+          "Class dapat mencakup 2 hal berikut : Sebuah fungsi konstruktor diinisialisasi dengan sejumlah parameter, yang akan ditugaskan sebagai properti this, mengacu pada fungsi itu sendiri. Huruf pertama dari pengidentifikasi akan dikapitalisasi oleh konvensi. Kita tahu fungsi konstruktor dimaksudkan untuk menjadi cetak biru objek dengan huruf kapital huruf pertama dari penginisialisasi (yang opsional) dan melalui keakraban dengan sintaksis. Kata classkunci berkomunikasi dengan cara yang lebih mudah, tujuan fungsi kami.Satu-satunya perbedaan dalam sintaks inisialisasi adalah menggunakan classkata kunci alih-alih function, dan menetapkan properti di dalam constructor()metode.",
+          "Template Literal merupakan cara penulisan syntac di ES6, sebelum untuk menggabungkan karakter atau string menggunakan tanda [ "+" ] maka kalau di menggunakan Template Literal cukup menggunakan tanda [ ` ${name_key} ]` "
         ],
-        "summarize": ""
+        "summarize": "Arrow function merupakan cara penulisan syntax dari ES6 dengan tujuan utamanya adalah membuat syntax javascript kita menjadi lebih ringkas. Sedangkan Class suatu deklarasi kelaf dan class memiliki 2 jenis parameter yaitu function dan constructor.",
+        "usable_link":[
+        {
+          "url": "https://medium.com/@renopp/kenalan-dengan-es6-javascript-introduction-variable-arrow-function-part1-6bd5c148473b",
+          "title": "Arrow Function"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
+          "title": "Class Syntax"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
+          "title": "Template Literals"
+        }
+      ]
+        
       },
       {
         "title": "Destructuring",
@@ -73,7 +94,13 @@
         "title": "Iterators and functional programming in JS",
         "keywords": ["Itertors","next()","for...of"],
         "notes": ["Iterator adalah objek yang mendefinisikan urutan dan berpotensi mengembalikan nilai pada saat penghentiannya. ","Lebih khusus iterator adalah objek apa pun yang mengimplementasikan protokol Iterator dengan memiliki  next()metode yang mengembalikan objek dengan dua properti  value: nilai berikutnya dalam urutan; dan done, yang truejika nilai terakhir dalam urutan sudah dikonsumsi. Jika value ada di sampingnya done, itu adalah nilai pengembalian iterator.","The for...ofpernyataan menciptakan iterasi loop di atas benda iterable , termasuk: built-in String, Array,  Arraybenda -seperti (misalnya,  argumentsatau  NodeList), TypedArray, Map, Set, dan user-defined iterables. Itu meminta kait iterasi kustom dengan pernyataan yang akan dieksekusi untuk nilai setiap properti objek yang berbeda.","String, Array, TypedArray, MapDan Setsemua built-in iterables, karena prototipe mereka benda semua memiliki Symbol.iteratormetode.","Sebelum ES6 tidak ada cara dalam javascript untuk menjeda mengeksekusi suatu fungsi di beberapa titik, kemudian datang kemudian ke titik yang sama dan melanjutkan eksekusi fungsi.  Tetapi dengan fungsi generator kita dapat melakukan itu, karena fungsi generator ketika dieksekusi mengembalikan sebuah iterator, dan alih-alih berhenti di setiap nilai / elemen dan mengembalikan iteratorHasil dengan masing-masing .next (), fungsi generator berhenti di setiap kata kunci hasil dan mengembalikan nilai di sebelah jika ada. Untuk menentukan fungsi generator, Anda perlu menambahkan * antara fungsi kata kunci dan nama fungsi.","String dapat diubah, tetapi mereka mengulangi lebih dari titik kode Unicode, yang masing-masing terdiri dari satu atau dua karakter JavaScript:","Peta adalah iterables atas entri mereka. Setiap entri dikodekan sebagai pasangan [kunci, nilai], sebuah Array dengan dua elemen. Entri selalu diiterasi secara deterministik, dalam urutan yang sama di mana mereka ditambahkan ke peta.","Set adalah iterables atas elemen mereka (yang iterated di dalam urutan yang sama di mana mereka ditambahkan ke Set).","Array (dan array yang diketik) adalah iterables atas elemen mereka:"],
-        "summarize": " terator adalah bagian dari apa yang disebut protokol ( antarmuka ditambah aturan untuk menggunakannya ) untuk iterasi. Karakteristik utama dari protokol ini adalah sekuensial: iterator mengembalikan nilai satu per satu. Itu berarti bahwa jika struktur data yang dapat diulang adalah non-linier (seperti pohon), iterasi akan membuat garis itu. Iterable sumber data yaitu Peta, Set, Array"
+        "summarize": " terator adalah bagian dari apa yang disebut protokol ( antarmuka ditambah aturan untuk menggunakannya ) untuk iterasi. Karakteristik utama dari protokol ini adalah sekuensial: iterator mengembalikan nilai satu per satu. Itu berarti bahwa jika struktur data yang dapat diulang adalah non-linier (seperti pohon), iterasi akan membuat garis itu. Iterable sumber data yaitu Peta, Set, Array",
+        "usable_link":[
+          {
+            "url": "https://medium.com/dubizzletechblog/introduction-to-javascript-iterables-iterators-and-generators-a26be413dfd9",
+            "title": "Iterators and functional"
+          }
+        ]
       },
       {
         "title": "Modules",
