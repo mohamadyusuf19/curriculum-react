@@ -55,6 +55,7 @@
           "Salah satu keuntungan kembali kita menggunakan arrow function adalah kita bisa menggunakan ‘this’ tanpa perlu membuat that = this. Ada kawan-kawan yang pernah pakai that = this?",
           "Syntax Arrow Function pada ES6 secara umum seperti ini. () => { ... } // no parameter",
           "Class dapat mencakup 2 hal berikut : Sebuah fungsi konstruktor diinisialisasi dengan sejumlah parameter, yang akan ditugaskan sebagai properti this, mengacu pada fungsi itu sendiri. Huruf pertama dari pengidentifikasi akan dikapitalisasi oleh konvensi. Kita tahu fungsi konstruktor dimaksudkan untuk menjadi cetak biru objek dengan huruf kapital huruf pertama dari penginisialisasi (yang opsional) dan melalui keakraban dengan sintaksis. Kata classkunci berkomunikasi dengan cara yang lebih mudah, tujuan fungsi kami.Satu-satunya perbedaan dalam sintaks inisialisasi adalah menggunakan classkata kunci alih-alih function, dan menetapkan properti di dalam constructor()metode."
+
         ],
         "summarize": "Arrow function merupakan cara penulisan syntax dari ES6 dengan tujuan utamanya adalah membuat syntax javascript kita menjadi lebih ringkas. Sedangkan Class suatu deklarasi kelaf dan class memiliki 2 jenis parameter yaitu function dan constructor.",
         "usable_link": [
@@ -105,7 +106,13 @@
           "Rest Parameter sama dengan Spread Operator diawali dengan tanda titik tiga, namun pada rest parameter",
           "hanya mengambil nilai sisa dari sebuah array"
         ],
-        "summarize": "Dengan menggunakan Default parameter, spread operator dan rest parameter dari es6 membuat kode kita menjadi lebih clean code"
+        "summarize": "Dengan menggunakan Default parameter, spread operator dan rest parameter dari es6 membuat kode kita menjadi lebih clean code",
+        "usable_link": [
+          {
+            "url": "https://css-tricks.com/lets-learn-es2015/#es2015-rest%20parameters",
+            "title": "more detail about.."
+          }
+        ]
       },
       {
         "title": "Iterators and functional programming in JS",
