@@ -75,8 +75,13 @@
       },
       {
         "title": "Destructuring",
-        "keywords": ["Destructuring"],
-        "notes": ["Destructuring/Destrukturisasi adalah cara yang mudah untuk mengekstraksi beberapa nilai dari variabel, objek dan Array yang tersimpan. Itu dapat digunakan di lokasi yang menerima data. Cara mengekstrak yang ditentukan melalui nilai pola"],
+        "keywords": [
+          "Destructuring"
+        ],
+        "notes": [
+          "Destructuring/Destrukturisasi adalah cara yang mudah untuk mengekstraksi beberapa nilai dari variabel, objek dan Array yang tersimpan.",
+          "Itu dapat digunakan di lokasi yang menerima data. Cara mengekstrak yang ditentukan melalui nilai pola"
+        ],
         "summarize": "Singkatnya, destructuring itu adalah bagaimana kita menyusun nilai dari variabel, object maupun array, menjadi lebih terstruktur"
       },
       {
@@ -176,9 +181,30 @@
       },
       {
         "title": "Virtual DOM and JSX",
-        "keywords": "",
-        "notes": "",
-        "summarize": "",
+        "keywords": [
+          "Virtual DOM",
+          "JSX"
+        ],
+        "notes": [
+          "Virtual DOM adalah API pemrograman untuk dokumen HTML dan XML.", 
+          "Ini mendefinisikan struktur logis dokumen dan cara dokumen diakses dan dimanipulasi.", 
+          "DOM adalah singkatan dari Document Object Model.", 
+          "Dan JSX merupakan sebuah sintaks extension pada javascript, untuk di gunakan pada React.", 
+          "Sintaks kode JSX merupakan kode HTML yang di sematkan pada kode javascript.", 
+          "JSX bukanlah sintaks javascript, sehingga browser tidak bisa membaca sintaks ini.", 
+          "Dibutuhkan sebuah JSX compiler yang di gunakan untuk menerjemahkan JSX kedalam bahasa regular javascript agar bisa terbaca oleh browser."
+        ],
+        "summarize": "Singkatnya dengan virtual DOM kita ngebuat sebuah abstraksi DOM yang biasa disebut sebagai component. Component ini lah yang nanti nya di render ke dalam file HTML dengan JSX maka itu semua dapat terjadi",
+        "usable_link": [
+          {
+            "url": "https://ekaprasasti.com/memulai-reactjs-dan-dasar-jsx/",
+            "title": "ReactJSDOM&JSX"
+          },
+          {
+            "url": "https://kudo.co.id/engineering/2017/02/16/mengenal-virtual-dom-pada-reactjs/",
+            "title": "Conclusion Virtual DOM"
+          }
+        ],
         "detail": [
           "React Components, Elements, and Instances",
           "JSX and React.createElement"
