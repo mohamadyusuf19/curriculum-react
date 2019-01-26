@@ -90,7 +90,13 @@
           "untuk menggunakan mendapatkan nilai true , atau menangkap bahwa event berhasil dilakukan menggunakan methode .then",
           "untuk mendapatkan nilai false , atau menangkap bahwa event gagal dilakukan menggunakan methode .cacth"
         ],
-        "summarize": "Promise berguna untuk mendapatkan nilai true atau false , dimana pada saat kita melakukan asyncronous javascript kita dapat dengan mudah untuk mendapatkan hasil apakah event yang  kita lakukan berhasil dilakukan atau gagal dilakukan "
+        "summarize": "Promise berguna untuk mendapatkan nilai true atau false , dimana pada saat kita melakukan asyncronous javascript kita dapat dengan mudah untuk mendapatkan hasil apakah event yang  kita lakukan berhasil dilakukan atau gagal dilakukan ",
+        "usable_link":[
+          {
+            "url":"https://blog.andi.dirgantara.co/promise-pada-javascript-24e544c8bd0d",
+            "title":"more detail about promise"
+          }
+        ]
       },
       {
         "title": "ES6 exercise using TDD",
