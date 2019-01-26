@@ -167,9 +167,15 @@
       },
       {
         "title": "Component lifecycle",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "keywords": ["component lifecycle"],
+        "notes": "Component Lifecycle adalah alur jalannya pengeksekusian component dari awal hingga akhir",
+        "summarize": "Beberapa method mempunyai prefix will dan did yang menunjukkan kapan method tersebut akan dieksekusi.",
+        "useable_link": [
+          {
+            "url":"https://medium.com/skyshidigital/react-component-lifecycle-wajib-bagi-yang-sedang-belajar-react-b46049b97788",
+            "title": "Lifecycle Component ES6"
+          }
+        ]
       },
       {
         "title": "Data management",
