@@ -14,7 +14,7 @@
           "Standarisasi JavaScript sekarang memakai es6 2015"
         ],
         "summarize": "Untuk memulai belajar React diharuskan terlebih dahulu harus mengerti bahasa pemrograman JavaScript, selain itu juga di haruskan untuk memahami sintak-sintak es6 2015. Seperti let, const, template literal, arrow functions, class syntax, destructuring, default parameters, Rest operator, Spread operator, module dan promises. Karena dalam pembuatan aplikasi-aplikasi JavaScript, kita akan sering menggunakan sintaks-sintaks es6 kedepannya.",
-        "usable_link": [
+        "useable_link": [
           {
             "url": "https://www.slideshare.net/rizafahmi/essentials-and-impactful-features-of-es6",
             "title": "ES6 2015"
@@ -94,7 +94,7 @@
           "untuk mendapatkan nilai false , atau menangkap bahwa event gagal dilakukan menggunakan methode .cacth"
         ],
         "summarize": "Promise berguna untuk mendapatkan nilai true atau false , dimana pada saat kita melakukan asyncronous javascript kita dapat dengan mudah untuk mendapatkan hasil apakah event yang  kita lakukan berhasil dilakukan atau gagal dilakukan ",
-        "usable_link":[
+        "useable_link":[
           {
             "url":"https://blog.andi.dirgantara.co/promise-pada-javascript-24e544c8bd0d",
             "title":"more detail about promise"
