@@ -1,29 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Modern JavaScript",    
+    "title": "Modern JavaScript",
     "master": [
       {
         "title": "Modern JavaScript for React - ES6 and beyond",
-        "keywords": ["JavaScript(JS)","es6 2015"],
+        "keywords": [
+          "JavaScript(JS)",
+          "es6 2015"
+        ],
         "notes": [
           "React adalah sebuah library yang digunakan untuk membuat aplikasi dengan bahasa pemrograman JavaScript",
-          "Standarisasi JavaScript sekarang memakai es6 2015"          
+          "Standarisasi JavaScript sekarang memakai es6 2015"
         ],
         "summarize": "Untuk memulai belajar React diharuskan terlebih dahulu harus mengerti bahasa pemrograman JavaScript, selain itu juga di haruskan untuk memahami sintak-sintak es6 2015. Seperti let, const, template literal, arrow functions, class syntax, destructuring, default parameters, Rest operator, Spread operator, module dan promises. Karena dalam pembuatan aplikasi-aplikasi JavaScript, kita akan sering menggunakan sintaks-sintaks es6 kedepannya.",
         "usable_link": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
       {
         "title": "Let and Const vs Var",
-        "keywords": ["var","let","const","scope"],
-        "notes": [          
-          "var adalah deklarasi variabel global.",          
-          "let hampir sama dengan var namun hanya mencakup pada block scope.",          
+        "keywords": [
+          "var",
+          "let",
+          "const",
+          "scope"
+        ],
+        "notes": [
+          "var adalah deklarasi variabel global.",
+          "let hampir sama dengan var namun hanya mencakup pada block scope.",
           "const hanya bisa dipakai di dalam block scope dan bersifat constant tidak bisa dirubah.",
           "selain const, deklarasi variabel bisa dirubah."
         ],
@@ -31,7 +39,11 @@
       },
       {
         "title": "Arrow Functions, Class syntax, Template literal",
-        "keywords": ["arrow function", "class", "template literal"],
+        "keywords": [
+          "arrow function",
+          "class",
+          "template literal"
+        ],
         "notes": [
           "Arrow function merupakan penyederhanaan penulisan function di JavaScript",
           "Simbol arrow function adalah => "
@@ -45,10 +57,18 @@
         "summarize": ""
       },
       {
-        "title": "Default parameters, Rest operator, Spread operator",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "title": "Default parameters, Rest parameter, Spread operator",
+        "keywords": ["default parameters", "rest parameter", "spread operator"],
+        "notes": [
+          "Default Parameter adalah membuat nilai/value parameter default pada sebuah function",
+          "dengan memberi value langsung kepada parameter sebuah function sehingga tidak perlu membuat",
+          "variabel baru untuk memberikan value pada parameter yg mempunyai nilai default.",
+          "Spread Operator adalah mengumpulkan dan memanggil seluruh nilai array pada sebuah function atau variabel.",
+          "Sebuah Spread Operator biasa di awali dengan tanda titik tiga (...)",
+          "Rest Parameter sama dengan Spread Operator diawali dengan tanda titik tiga, namun pada rest parameter",
+          "hanya mengambil nilai sisa dari sebuah array"
+        ],
+        "summarize": "Dengan menggunakan Default parameter, spread operator dan rest parameter dari es6 membuat kode kita menjadi lebih clean code"
       },
       {
         "title": "Iterators and functional programming in JS",
@@ -58,15 +78,19 @@
       },
       {
         "title": "Modules",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "keywords": ["import", "define", "require"],
+        "notes": ["Modul adalah bagian dari program yang menentukan bagian mana yang menjadi sandarannya dan fungsionalitas apa yang disediakan untuk modul lain untuk digunakan", "Memecah-mecah kode program menjadi banyak bagian-bagian yang lebih kecil. Biasanya bagian kecil dari kode ini disebut dengan nama modul. Setiap kode modul memiliki peranan spesifik, dan biasanya sebuah modul terdiri dari beberapa fungsi. Semakin spesifik dan sejenis fungsi yang terkumpul di dalam sebuah modul semakin baik. Tingkat kecocokan fungsi-fungsi di dalam modul ini kita kenal dengan istilah cohesion.", "Setelah kode program dipecah menjadi bagian-bagian kecil, masing-masing komponen kecil ini kemudian dapat kita hubungkan untuk menjadi sebuah komponen yang lebih besar atau bahkan program jadi." ],
+        "summarize": "Pembuatan modul dari kode program dapat dilakukan dengan banyak cara, seperti mengumpulkan fungsi-fungsi ke dalam kelas atau objek, dan kmeudian memasukkan kode tersebut ke dalam sebuah file. Bagian kedua, di mana kita dapat memanggil modul-modul lain dengan mudah, biasanya didukung secara langsung oleh bahasa pemrograman yang digunakan. Contohnya, pada bahasa Java kita memiliki perintah import dan pada C# kita memiliki perintah using. "
       },
       {
         "title": "Promises",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "keywords":[".then",".catch"],
+        "notes": [
+          "Promise adalah built in method or built in function yang terdapat pada java script yang berguna untuk menangkap event atau suatu kejadian ketika menggunakan asyncronous java script , dimana kita dapat melihat suatu event berhasil dilakukan atau gagal untuk dilakukan ",
+          "untuk menggunakan mendapatkan nilai true , atau menangkap bahwa event berhasil dilakukan menggunakan methode .then",
+          "untuk mendapatkan nilai false , atau menangkap bahwa event gagal dilakukan menggunakan methode .cacth"
+        ],
+        "summarize": "Promise berguna untuk mendapatkan nilai true atau false , dimana pada saat kita melakukan asyncronous javascript kita dapat dengan mudah untuk mendapatkan hasil apakah event yang  kita lakukan berhasil dilakukan atau gagal dilakukan "
       },
       {
         "title": "ES6 exercise using TDD",
@@ -168,14 +192,20 @@
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["Controlled Components", "Uncontrolled Components"]
+        "detail": [
+          "Controlled Components",
+          "Uncontrolled Components"
+        ]
       },
       {
         "title": "Authentication",
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["JWT", "Authorization, public and private pages"]
+        "detail": [
+          "JWT",
+          "Authorization, public and private pages"
+        ]
       }
     ]
   },
@@ -230,7 +260,10 @@
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["Store, Reducers, Actions", "Unique source of truth"]
+        "detail": [
+          "Store, Reducers, Actions",
+          "Unique source of truth"
+        ]
       },
       {
         "title": "React-Redux: Provider and Connect",
@@ -297,7 +330,9 @@
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["Composing React components"]
+        "detail": [
+          "Composing React components"
+        ]
       },
       {
         "title": "Advanced React patterns to reuse functionality across components",
