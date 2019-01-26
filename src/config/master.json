@@ -45,10 +45,18 @@
         "summarize": ""
       },
       {
-        "title": "Default parameters, Rest operator, Spread operator",
-        "keywords": "",
-        "notes": "",
-        "summarize": ""
+        "title": "Default parameters, Rest parameter, Spread operator",
+        "keywords": ["default parameters", "rest parameter", "spread operator"],
+        "notes": [
+          "Default Parameter adalah membuat nilai/value parameter default pada sebuah function",
+          "dengan memberi value langsung kepada parameter sebuah function sehingga tidak perlu membuat",
+          "variabel baru untuk memberikan value pada parameter yg mempunyai nilai default.",
+          "Spread Operator adalah mengumpulkan dan memanggil seluruh nilai array pada sebuah function atau variabel.",
+          "Sebuah Spread Operator biasa di awali dengan tanda titik tiga (...)",
+          "Rest Parameter sama dengan Spread Operator diawali dengan tanda titik tiga, namun pada rest parameter",
+          "hanya mengambil nilai sisa dari sebuah array"
+        ],
+        "summarize": "Dengan menggunakan Default parameter, spread operator dan rest parameter dari es6 membuat kode kita menjadi lebih clean code"
       },
       {
         "title": "Iterators and functional programming in JS",
