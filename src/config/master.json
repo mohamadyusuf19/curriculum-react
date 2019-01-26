@@ -1,29 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Modern JavaScript",    
+    "title": "Modern JavaScript",
     "master": [
       {
         "title": "Modern JavaScript for React - ES6 and beyond",
-        "keywords": ["JavaScript(JS)","es6 2015"],
+        "keywords": [
+          "JavaScript(JS)",
+          "es6 2015"
+        ],
         "notes": [
           "React adalah sebuah library yang digunakan untuk membuat aplikasi dengan bahasa pemrograman JavaScript",
-          "Standarisasi JavaScript sekarang memakai es6 2015"          
+          "Standarisasi JavaScript sekarang memakai es6 2015"
         ],
         "summarize": "Untuk memulai belajar React diharuskan terlebih dahulu harus mengerti bahasa pemrograman JavaScript, selain itu juga di haruskan untuk memahami sintak-sintak es6 2015. Seperti let, const, template literal, arrow functions, class syntax, destructuring, default parameters, Rest operator, Spread operator, module dan promises. Karena dalam pembuatan aplikasi-aplikasi JavaScript, kita akan sering menggunakan sintaks-sintaks es6 kedepannya.",
         "usable_link": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
       {
         "title": "Let and Const vs Var",
-        "keywords": ["var","let","const","scope"],
-        "notes": [          
-          "var adalah deklarasi variabel global.",          
-          "let hampir sama dengan var namun hanya mencakup pada block scope.",          
+        "keywords": [
+          "var",
+          "let",
+          "const",
+          "scope"
+        ],
+        "notes": [
+          "var adalah deklarasi variabel global.",
+          "let hampir sama dengan var namun hanya mencakup pada block scope.",
           "const hanya bisa dipakai di dalam block scope dan bersifat constant tidak bisa dirubah.",
           "selain const, deklarasi variabel bisa dirubah."
         ],
@@ -31,7 +39,11 @@
       },
       {
         "title": "Arrow Functions, Class syntax, Template literal",
-        "keywords": ["arrow function", "class", "template literal"],
+        "keywords": [
+          "arrow function",
+          "class",
+          "template literal"
+        ],
         "notes": [
           "Arrow function merupakan penyederhanaan penulisan function di JavaScript",
           "Simbol arrow function adalah => "
@@ -168,14 +180,20 @@
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["Controlled Components", "Uncontrolled Components"]
+        "detail": [
+          "Controlled Components",
+          "Uncontrolled Components"
+        ]
       },
       {
         "title": "Authentication",
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["JWT", "Authorization, public and private pages"]
+        "detail": [
+          "JWT",
+          "Authorization, public and private pages"
+        ]
       }
     ]
   },
@@ -230,7 +248,10 @@
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["Store, Reducers, Actions", "Unique source of truth"]
+        "detail": [
+          "Store, Reducers, Actions",
+          "Unique source of truth"
+        ]
       },
       {
         "title": "React-Redux: Provider and Connect",
@@ -297,7 +318,9 @@
         "keywords": "",
         "notes": "",
         "summarize": "",
-        "detail": ["Composing React components"]
+        "detail": [
+          "Composing React components"
+        ]
       },
       {
         "title": "Advanced React patterns to reuse functionality across components",
