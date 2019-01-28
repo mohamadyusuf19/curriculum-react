@@ -55,25 +55,24 @@
           "Salah satu fitur yang banyak digunakan dari ES6 adalah arrow function. Dari namanya kita sudah bisa mengira, ini adalah fitur pada function. Salah satu kegunaan dari fitur ini adalah syntax javascript kita menjadi lebih ringkas.",
           "Salah satu keuntungan kembali kita menggunakan arrow function adalah kita bisa menggunakan ‘this’ tanpa perlu membuat that = this. Ada kawan-kawan yang pernah pakai that = this?",
           "Syntax Arrow Function pada ES6 secara umum seperti ini. () => { ... } // no parameter",
-          "Class dapat mencakup 2 hal berikut : Sebuah fungsi konstruktor diinisialisasi dengan sejumlah parameter, yang akan ditugaskan sebagai properti this, mengacu pada fungsi itu sendiri. Huruf pertama dari pengidentifikasi akan dikapitalisasi oleh konvensi. Kita tahu fungsi konstruktor dimaksudkan untuk menjadi cetak biru objek dengan huruf kapital huruf pertama dari penginisialisasi (yang opsional) dan melalui keakraban dengan sintaksis. Kata classkunci berkomunikasi dengan cara yang lebih mudah, tujuan fungsi kami.Satu-satunya perbedaan dalam sintaks inisialisasi adalah menggunakan classkata kunci alih-alih function, dan menetapkan properti di dalam constructor()metode.",
-          "Template Literal merupakan cara penulisan syntac di ES6, sebelum untuk menggabungkan karakter atau string menggunakan tanda tambah maka kalau di menggunakan Template Literal cukup menggunakan tanda ${} "          
+          "Class dapat mencakup 2 hal berikut : Sebuah fungsi konstruktor diinisialisasi dengan sejumlah parameter, yang akan ditugaskan sebagai properti this, mengacu pada fungsi itu sendiri. Huruf pertama dari pengidentifikasi akan dikapitalisasi oleh konvensi. Kita tahu fungsi konstruktor dimaksudkan untuk menjadi cetak biru objek dengan huruf kapital huruf pertama dari penginisialisasi (yang opsional) dan melalui keakraban dengan sintaksis. Kata classkunci berkomunikasi dengan cara yang lebih mudah, tujuan fungsi kami.Satu-satunya perbedaan dalam sintaks inisialisasi adalah menggunakan classkata kunci alih-alih function, dan menetapkan properti di dalam constructor()metode."
+
         ],
         "summarize": "Arrow function merupakan cara penulisan syntax dari ES6 dengan tujuan utamanya adalah membuat syntax javascript kita menjadi lebih ringkas. Sedangkan Class suatu deklarasi kelaf dan class memiliki 2 jenis parameter yaitu function dan constructor.",
-        "useable_link":[
-        {
-          "url": "https://medium.com/@renopp/kenalan-dengan-es6-javascript-introduction-variable-arrow-function-part1-6bd5c148473b",
-          "title": "Arrow Function"
-        },
-        {
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
-          "title": "Class Syntax"
-        },
-        {
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
-          "title": "Template Literals"
-        }
-      ]
-        
+        "usable_link": [
+          {
+            "url": "https://medium.com/@renopp/kenalan-dengan-es6-javascript-introduction-variable-arrow-function-part1-6bd5c148473b",
+            "title": "Arrow Function"
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
+            "title": "Class Syntax"
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
+            "title": "Template Literals"
+          }
+        ]
       },
       {
         "title": "Destructuring",
@@ -85,11 +84,20 @@
           "Itu dapat digunakan di lokasi yang menerima data. Cara mengekstrak yang ditentukan melalui nilai pola"
         ],
         "summarize": "Singkatnya, destructuring itu adalah bagaimana kita menyusun nilai dari variabel, object maupun array, menjadi lebih terstruktur",
-        "useable_link": []
+        "useable_link": [
+          {
+            "url": "https://icalrn.id/destructuring-assignment-pada-javascript/",
+            "title": "Destructuring Assignment"
+          }
+        ]
       },
       {
         "title": "Default parameters, Rest parameter, Spread operator",
-        "keywords": ["default parameters", "rest parameter", "spread operator"],
+        "keywords": [
+          "default parameters",
+          "rest parameter",
+          "spread operator"
+        ],
         "notes": [
           "Default Parameter adalah membuat nilai/value parameter default pada sebuah function",
           "dengan memberi value langsung kepada parameter sebuah function sehingga tidak perlu membuat",
@@ -109,10 +117,24 @@
       },
       {
         "title": "Iterators and functional programming in JS",
-        "keywords": ["Itertors","next()","for...of"],
-        "notes": ["Iterator adalah objek yang mendefinisikan urutan dan berpotensi mengembalikan nilai pada saat penghentiannya. ","Lebih khusus iterator adalah objek apa pun yang mengimplementasikan protokol Iterator dengan memiliki  next()metode yang mengembalikan objek dengan dua properti  value: nilai berikutnya dalam urutan; dan done, yang truejika nilai terakhir dalam urutan sudah dikonsumsi. Jika value ada di sampingnya done, itu adalah nilai pengembalian iterator.","The for...ofpernyataan menciptakan iterasi loop di atas benda iterable , termasuk: built-in String, Array,  Arraybenda -seperti (misalnya,  argumentsatau  NodeList), TypedArray, Map, Set, dan user-defined iterables. Itu meminta kait iterasi kustom dengan pernyataan yang akan dieksekusi untuk nilai setiap properti objek yang berbeda.","String, Array, TypedArray, MapDan Setsemua built-in iterables, karena prototipe mereka benda semua memiliki Symbol.iteratormetode.","Sebelum ES6 tidak ada cara dalam javascript untuk menjeda mengeksekusi suatu fungsi di beberapa titik, kemudian datang kemudian ke titik yang sama dan melanjutkan eksekusi fungsi.  Tetapi dengan fungsi generator kita dapat melakukan itu, karena fungsi generator ketika dieksekusi mengembalikan sebuah iterator, dan alih-alih berhenti di setiap nilai / elemen dan mengembalikan iteratorHasil dengan masing-masing .next (), fungsi generator berhenti di setiap kata kunci hasil dan mengembalikan nilai di sebelah jika ada. Untuk menentukan fungsi generator, Anda perlu menambahkan * antara fungsi kata kunci dan nama fungsi.","String dapat diubah, tetapi mereka mengulangi lebih dari titik kode Unicode, yang masing-masing terdiri dari satu atau dua karakter JavaScript:","Peta adalah iterables atas entri mereka. Setiap entri dikodekan sebagai pasangan [kunci, nilai], sebuah Array dengan dua elemen. Entri selalu diiterasi secara deterministik, dalam urutan yang sama di mana mereka ditambahkan ke peta.","Set adalah iterables atas elemen mereka (yang iterated di dalam urutan yang sama di mana mereka ditambahkan ke Set).","Array (dan array yang diketik) adalah iterables atas elemen mereka:"],
+        "keywords": [
+          "Itertors",
+          "next()",
+          "for...of"
+        ],
+        "notes": [
+          "Iterator adalah objek yang mendefinisikan urutan dan berpotensi mengembalikan nilai pada saat penghentiannya. ",
+          "Lebih khusus iterator adalah objek apa pun yang mengimplementasikan protokol Iterator dengan memiliki  next()metode yang mengembalikan objek dengan dua properti  value: nilai berikutnya dalam urutan; dan done, yang truejika nilai terakhir dalam urutan sudah dikonsumsi. Jika value ada di sampingnya done, itu adalah nilai pengembalian iterator.",
+          "The for...ofpernyataan menciptakan iterasi loop di atas benda iterable , termasuk: built-in String, Array,  Arraybenda -seperti (misalnya,  argumentsatau  NodeList), TypedArray, Map, Set, dan user-defined iterables. Itu meminta kait iterasi kustom dengan pernyataan yang akan dieksekusi untuk nilai setiap properti objek yang berbeda.",
+          "String, Array, TypedArray, MapDan Setsemua built-in iterables, karena prototipe mereka benda semua memiliki Symbol.iteratormetode.",
+          "Sebelum ES6 tidak ada cara dalam javascript untuk menjeda mengeksekusi suatu fungsi di beberapa titik, kemudian datang kemudian ke titik yang sama dan melanjutkan eksekusi fungsi.  Tetapi dengan fungsi generator kita dapat melakukan itu, karena fungsi generator ketika dieksekusi mengembalikan sebuah iterator, dan alih-alih berhenti di setiap nilai / elemen dan mengembalikan iteratorHasil dengan masing-masing .next (), fungsi generator berhenti di setiap kata kunci hasil dan mengembalikan nilai di sebelah jika ada. Untuk menentukan fungsi generator, Anda perlu menambahkan * antara fungsi kata kunci dan nama fungsi.",
+          "String dapat diubah, tetapi mereka mengulangi lebih dari titik kode Unicode, yang masing-masing terdiri dari satu atau dua karakter JavaScript:",
+          "Peta adalah iterables atas entri mereka. Setiap entri dikodekan sebagai pasangan [kunci, nilai], sebuah Array dengan dua elemen. Entri selalu diiterasi secara deterministik, dalam urutan yang sama di mana mereka ditambahkan ke peta.",
+          "Set adalah iterables atas elemen mereka (yang iterated di dalam urutan yang sama di mana mereka ditambahkan ke Set).",
+          "Array (dan array yang diketik) adalah iterables atas elemen mereka:"
+        ],
         "summarize": " terator adalah bagian dari apa yang disebut protokol ( antarmuka ditambah aturan untuk menggunakannya ) untuk iterasi. Karakteristik utama dari protokol ini adalah sekuensial: iterator mengembalikan nilai satu per satu. Itu berarti bahwa jika struktur data yang dapat diulang adalah non-linier (seperti pohon), iterasi akan membuat garis itu. Iterable sumber data yaitu Peta, Set, Array",
-        "useable_link":[
+        "useable_link": [
           {
             "url": "https://medium.com/dubizzletechblog/introduction-to-javascript-iterables-iterators-and-generators-a26be413dfd9",
             "title": "Iterators and functional"
@@ -121,8 +143,16 @@
       },
       {
         "title": "Modules",
-        "keywords": ["import", "define", "require"],
-        "notes": ["Modul adalah bagian dari program yang menentukan bagian mana yang menjadi sandarannya dan fungsionalitas apa yang disediakan untuk modul lain untuk digunakan", "Memecah-mecah kode program menjadi banyak bagian-bagian yang lebih kecil. Biasanya bagian kecil dari kode ini disebut dengan nama modul. Setiap kode modul memiliki peranan spesifik, dan biasanya sebuah modul terdiri dari beberapa fungsi. Semakin spesifik dan sejenis fungsi yang terkumpul di dalam sebuah modul semakin baik. Tingkat kecocokan fungsi-fungsi di dalam modul ini kita kenal dengan istilah cohesion.", "Setelah kode program dipecah menjadi bagian-bagian kecil, masing-masing komponen kecil ini kemudian dapat kita hubungkan untuk menjadi sebuah komponen yang lebih besar atau bahkan program jadi." ],
+        "keywords": [
+          "import",
+          "define",
+          "require"
+        ],
+        "notes": [
+          "Modul adalah bagian dari program yang menentukan bagian mana yang menjadi sandarannya dan fungsionalitas apa yang disediakan untuk modul lain untuk digunakan",
+          "Memecah-mecah kode program menjadi banyak bagian-bagian yang lebih kecil. Biasanya bagian kecil dari kode ini disebut dengan nama modul. Setiap kode modul memiliki peranan spesifik, dan biasanya sebuah modul terdiri dari beberapa fungsi. Semakin spesifik dan sejenis fungsi yang terkumpul di dalam sebuah modul semakin baik. Tingkat kecocokan fungsi-fungsi di dalam modul ini kita kenal dengan istilah cohesion.",
+          "Setelah kode program dipecah menjadi bagian-bagian kecil, masing-masing komponen kecil ini kemudian dapat kita hubungkan untuk menjadi sebuah komponen yang lebih besar atau bahkan program jadi."
+        ],
         "summarize": "Pembuatan modul dari kode program dapat dilakukan dengan banyak cara, seperti mengumpulkan fungsi-fungsi ke dalam kelas atau objek, dan kmeudian memasukkan kode tersebut ke dalam sebuah file. Bagian kedua, di mana kita dapat memanggil modul-modul lain dengan mudah, biasanya didukung secara langsung oleh bahasa pemrograman yang digunakan. Contohnya, pada bahasa Java kita memiliki perintah import dan pada C# kita memiliki perintah using. ",
         "useable_link": [
           {
@@ -133,17 +163,20 @@
       },
       {
         "title": "Promises",
-        "keywords":[".then",".catch"],
+        "keywords": [
+          ".then",
+          ".catch"
+        ],
         "notes": [
           "Promise adalah built in method or built in function yang terdapat pada java script yang berguna untuk menangkap event atau suatu kejadian ketika menggunakan asyncronous java script , dimana kita dapat melihat suatu event berhasil dilakukan atau gagal untuk dilakukan ",
           "untuk menggunakan mendapatkan nilai true , atau menangkap bahwa event berhasil dilakukan menggunakan methode .then",
           "untuk mendapatkan nilai false , atau menangkap bahwa event gagal dilakukan menggunakan methode .cacth"
         ],
         "summarize": "Promise berguna untuk mendapatkan nilai true atau false , dimana pada saat kita melakukan asyncronous javascript kita dapat dengan mudah untuk mendapatkan hasil apakah event yang  kita lakukan berhasil dilakukan atau gagal dilakukan ",
-        "useable_link":[
+        "useable_link": [
           {
-            "url":"https://blog.andi.dirgantara.co/promise-pada-javascript-24e544c8bd0d",
-            "title":"more detail about promise"
+            "url": "https://blog.andi.dirgantara.co/promise-pada-javascript-24e544c8bd0d",
+            "title": "more detail about promise"
           }
         ]
       },
@@ -200,12 +233,12 @@
           "JSX"
         ],
         "notes": [
-          "Virtual DOM adalah API pemrograman untuk dokumen HTML dan XML.", 
-          "Ini mendefinisikan struktur logis dokumen dan cara dokumen diakses dan dimanipulasi.", 
-          "DOM adalah singkatan dari Document Object Model.", 
-          "Dan JSX merupakan sebuah sintaks extension pada javascript, untuk di gunakan pada React.", 
-          "Sintaks kode JSX merupakan kode HTML yang di sematkan pada kode javascript.", 
-          "JSX bukanlah sintaks javascript, sehingga browser tidak bisa membaca sintaks ini.", 
+          "Virtual DOM adalah API pemrograman untuk dokumen HTML dan XML.",
+          "Ini mendefinisikan struktur logis dokumen dan cara dokumen diakses dan dimanipulasi.",
+          "DOM adalah singkatan dari Document Object Model.",
+          "Dan JSX merupakan sebuah sintaks extension pada javascript, untuk di gunakan pada React.",
+          "Sintaks kode JSX merupakan kode HTML yang di sematkan pada kode javascript.",
+          "JSX bukanlah sintaks javascript, sehingga browser tidak bisa membaca sintaks ini.",
           "Dibutuhkan sebuah JSX compiler yang di gunakan untuk menerjemahkan JSX kedalam bahasa regular javascript agar bisa terbaca oleh browser."
         ],
         "summarize": "Singkatnya dengan virtual DOM kita ngebuat sebuah abstraksi DOM yang biasa disebut sebagai component. Component ini lah yang nanti nya di render ke dalam file HTML dengan JSX maka itu semua dapat terjadi",
@@ -250,12 +283,14 @@
       },
       {
         "title": "Component lifecycle",
-        "keywords": ["component lifecycle"],
+        "keywords": [
+          "component lifecycle"
+        ],
         "notes": "Component Lifecycle adalah alur jalannya pengeksekusian component dari awal hingga akhir",
         "summarize": "Beberapa method mempunyai prefix will dan did yang menunjukkan kapan method tersebut akan dieksekusi.",
         "useable_link": [
           {
-            "url":"https://medium.com/skyshidigital/react-component-lifecycle-wajib-bagi-yang-sedang-belajar-react-b46049b97788",
+            "url": "https://medium.com/skyshidigital/react-component-lifecycle-wajib-bagi-yang-sedang-belajar-react-b46049b97788",
             "title": "Lifecycle Component ES6"
           }
         ],
