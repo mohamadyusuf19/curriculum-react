@@ -13,8 +13,9 @@ import Card from "../../components/Card";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 
-class Detail extends Component {
-  //navigasi ke halaman selanjutnya atau sebelumnya
+class Detail extends Component {    
+
+  //navigasi ke halaman selanjutnya atau sebelumnya  
   onNavigate(params) {
     const { id, data, indexId, navigate, dataNative, idNative } = this.props;
     const indexMin = indexId - 1;
@@ -35,19 +36,19 @@ class Detail extends Component {
     }
   }
 
-  render() {
+  render() {    
     const { dataDetail, indexId, navigate, data, dataNative } = this.props;
     // menghandle data pada button jika tidak ada data lagi
     const handleFinish = navigate == "reactjs" ? data : dataNative;
     return (
       <>
         <Header />
-        <Navbar />
+        <Navbar />                
         <div className="container-modern-detail">
           <p className="title-top">Detail Curriculum</p>
           {_.isEmpty(dataDetail) ? (
             <DetailCard>
-              <p>Maaf data yang anda cari kosong</p>
+              <p>Maaf data yang anda cari kosong</p>              
             </DetailCard>
           ) : (
             <DetailCard>
@@ -104,6 +105,22 @@ class Detail extends Component {
                   ) : null}
                 </div>
               ) : null}
+              {
+                dataDetail.useable_link.length > 0 ? (
+                <div className="wrapper-source">
+                  <div className="source">
+                  <p className="source-belajar">Sumber Belajar : </p>
+                  {
+                    dataDetail.useable_link.map(item => (                    
+                      <ul className="div-url">
+                        <li className="title-url">{item.title} </li>                                          
+                        <a href={item.url} target='_blank' className="text-url">{item.url}</a>                                          
+                      </ul>
+                    ))
+                  }
+                  </div>
+                </div>                
+                ) : null }                
               {dataDetail.notes.length > 0 ? (
                 <div className="exercise">
                   <i className="title-keyword">
@@ -112,7 +129,7 @@ class Detail extends Component {
                     Sesuai dengan pemahaman yang kalian pahami.
                   </i>
                 </div>
-              ) : null}
+              ) : null}                                          
               {dataDetail.summarize.length > 0 ? (
                 <div className="summarize">
                   <i className="title">kesimpulan : </i>

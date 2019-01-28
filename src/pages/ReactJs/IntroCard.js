@@ -42,13 +42,13 @@ class IntroCard extends Component {
                     return (
                       <ul key={detail.title}>
                         <li className="text-detail">
-                          {detail.title}{" "}
+                          {detail.title} {" "}
                           <Link
                             to="/detail"
                             className="italic"                            
                             onClick={() => [this.props.detailCurriculumActions(detail,indexId+1), this.props.Intro(master, id, true, 'reactjs')]}
                           >                            
-                            [ lihat detail ]
+                            => detail
                           </Link>
                         </li>
                         {_.isArray(detail.detail)

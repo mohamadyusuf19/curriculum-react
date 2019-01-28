@@ -91,9 +91,9 @@
     }
   }
   .notes {
-    border-right: solid 3px brown;
-    border-left: solid 3px brown;
-    border-top: solid 3px brown;
+    // border-right: solid 3px brown;
+    // border-left: solid 3px brown;
+    // border-top: solid 3px brown;
     border-top-left-radius: 15px;
     padding: 30px;
     margin-top: 30px;
@@ -109,9 +109,9 @@
     }
   }
   .exercise {
-    border-right: solid 3px brown;
-    border-left: solid 3px brown;
-    border-bottom: solid 3px brown;
+    // border-right: solid 3px brown;
+    // border-left: solid 3px brown;
+    // border-bottom: solid 3px brown;
     border-bottom-left-radius: 15px;
     padding: 30px;
     margin-bottom: 30px;
@@ -124,9 +124,8 @@
   }
   .summarize {
     padding: 30px;
-    background: #c6c6c6;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background: #CCC8C8;
+    margin: 30px;    
     .title {
       font-size: 16px;
       font-weight: bold;
@@ -135,7 +134,32 @@
     }
     .text-summarize {
       line-height: 2em;
-    }
+    }    
+  }
+  .wrapper-source {
+    // border-right: solid 3px brown;
+    // border-left: solid 3px brown;        
+    padding: 30px;          
+    .source {
+      border: solid 1px #C3C3C3;
+      padding: 30px;
+      .source-belajar {        
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+      .div-url {        
+        p {
+          margin: 0px;
+        }        
+        .title-url {
+          margin-right: 30px;
+        }
+      }
+    }    
+  }
+  .text-url {
+    display: block;
+    margin-bottom: 5px;
   }
 }
 
