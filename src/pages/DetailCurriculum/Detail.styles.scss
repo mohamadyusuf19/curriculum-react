@@ -95,20 +95,37 @@
     h4 {
       margin: 0px;
     }
-    .table-competence {
-      border: solid 0.5px #eae6c5;
-      padding: 15px;
-      margin: 0px;              
+    .table-competence {      
+      display: flex;      
+      padding: 0px;
+      margin: 0px;  
+      .number {
+        border: solid 0.5px #eae6c5;
+        padding: 20px;
+      } 
+      .item {
+        width: 100%;
+        border: solid 0.5px #eae6c5;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }           
+      .background {
+        background: #eae6c5;
+      }
     }
-    .background {
+    .table-background {
       background: #eae6c5;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
     }
   }
   .wrapper-course {
     padding-left: 30px;
     padding-right: 30px;
     p {
-      text-indent: 50px !important;
+      text-indent: 50px !important;//untuk membuat alinea baru menjorok kedalam
     }
     .content-course {      
       line-height: 2em;

@@ -78,13 +78,18 @@ class Detail extends Component {
               </div>
               {dataDetail.competence.length > 0 ? (
                 <div className="competence">
-                  <div className="table-competence background">
+                  <div className="table-background">
                     <h4>Kompetensi</h4>
                   </div>                  
                   {dataDetail.competence.map((item,index)=> {
                     return (
                       <div className="table-competence" key={item}>
-                        <span>{index+1}. {item}</span>                        
+                        <div className="number">
+                          <span>{index+1}.</span>                     
+                        </div>
+                        <div className={ index%2 == 0 ? "item" : "item background" } >
+                          <span>{item}</span>                        
+                        </div>                        
                       </div>
                     );
                   })}
@@ -94,7 +99,7 @@ class Detail extends Component {
                 <div className="wrapper-course">
                   {dataDetail.course.map(item => {
                     return (
-                      <div key={item.title}>
+                      <div key={item.title}>                        
                         <h4 className="title-course">{item.title}</h4>
                         <p className="content-course">{item.content}</p>
                       </div>

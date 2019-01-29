@@ -7,16 +7,17 @@
         "title": "Modern JavaScript for React - ES6 and beyond",
         "competence": [
           "Dapat memahami apakah ES6 itu",          
-          "Dapat memahami kenapa harus pakai ES6"
+          "Dapat memahami kenapa harus pakai ES6",
+          "Dapat mengetahui fitur-fitur apa saja di ES6"
         ],
-        "course": [
-          {
-            "title":"Javascript ES6",
-            "content":"Javascript ES6 membawa sintaks-sintaks baru dan fitur-fitur baru yang mengagumkan untuk membuat kode kita lebih modern dan mudah untuk dibaca. Ini membuat kita hanya menuliskan sedikit kode dan lebih banyak manfaatnya. ES6 memperkenalkan kita pada fitur-fitur seperti arrow functions, template literal, class, destructuring, modules dan masih banyak lagi. Pada materi berikutnya kita akan belajar bagaimana fitur-fitur ini bekerja."
-          },
+        "course": [          
           {
             "title":"Sejarah",
             "content":"Perusahaan bernama Netscape/Mozilla adalah pencipta pertama JavaScript yang digunakan untuk melakukan manipulasi HTML/DOM di browser Netscape/Firefox. Karena kesuksesan Netscape mengembangkan bahasa JavaScript, Microsoft pun tak mau ketinggalan, mereka menciptakan bahasa serupa bernama JScript. Perbedaan inilah yang menyebabkan hasil yang berbeda ketika website dijalankan di browser Netscape dan IE. Untuk mengatasi hal tersebut, dibuatlah EcmaScript yang merupakan standarisasi dari client-side scripting. Sehingga JavaScript dan JScript disepakati sebagai implementasi dari EcmaScript, termasuk juga Action Script. Namun karena JavaScript adalah bahasa yang paling pertama dibuat, maka orang-orang lebih mengistilahkan EcmaScript dengan Sebutan JavaScript.EcmaScript sendiri sebenarnya dilahirkan dari JavaScript asli, sehingga secara fitur, tidak ada perbedaan antara JavaScript dan EcmaScript. Sedangkan untuk versi JScript sendiri, ada sedikit perbedaan namun masih tetap mendukung fitur-fitur yang ada di versi standar EcmaScript. JavaScript yang kita kenal saat ini, adalah EcmaScript versi 5 (ES5). EcmaScript sendiri saat ini sudah sampai versi 6 (ES6/ES2015), namun belum support untuk semua browser. Sehingga untuk menggunakannya, ES6 harus ditranspile (dirubah) menjadi ES5/JavaScript dengan tool yang bernama Babel."
+          },
+          {
+            "title":"Javascript ES6",
+            "content":"Javascript ES6 membawa sintaks-sintaks baru dan fitur-fitur baru yang mengagumkan untuk membuat kode kita lebih modern dan mudah untuk dibaca. Ini membuat kita hanya menuliskan sedikit kode dan lebih banyak manfaatnya. ES6 memperkenalkan kita pada fitur-fitur seperti arrow functions, template literal, class, destructuring, modules dan masih banyak lagi. Pada materi berikutnya kita akan belajar bagaimana fitur-fitur ini bekerja."
           }
         ],
         "keywords": [
