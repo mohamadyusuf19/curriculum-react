@@ -1,150 +1,285 @@
 [
-    {
-      "id": 1,
-      "title": "Foundation, Navigation, Layouting and Animations",
-      "master": [
-        {
-          "title": "Foundation",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-            "Architecture & Project setup",
-            "Layout",
-            "Styling",
-            "Using List (Recyclerview)",
-            "Forms"
-          ]
-        },
-        {
-          "title": "Navigation",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-              "Types of navigations",
-              "Navigation Drawer",
-              "Bottom Navigation Drawer"
-          ]
-        },
-        {
-          "title": "Layouting",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-              "Types of Layouts",
-              "Types of Common",
-              "Types of Text",
-              "Types of Buttons",
-              "Types of Widgets",
-              "Types of Containers",
-              "Types of Google",
-              "Types of Legacy"
-          ]
-        },
-        {
-          "title": "Animations",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-              "Basic Animations",
-              "Third Party Services"
-          ]
-        }        
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Gestures, Offline, Assets Management & Push Notifications",
-      "master": [
-        {
-          "title": "Gestures",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-              "PanGestureHandler",
-              "RotationGestureHandler",
-              "PinchGestureHandler",
-              "Gestures Lifecycle",
-              "Composing Handlers"
-          ]
-        },
-        {
-          "title": "Componentization",
-          "keywords": "",
-          "notes": "",
-          "summarize": ""
-        },
-        {
-          "title": "Handling Offline & Assets Management",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-            "Assets Tool recommendations",
-            "Recommended plugin for asset Android Studio",
-            "App icons",
-            "Splash screen for Android",
-            "Other assets per platform",
-            "Handling offline requests",
-            "Notifying the user of their connection status"
-          ]
-        },
-        {
-          "title": "Push Notifications",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-              "Sending Notifications to Android using FCM",
-              "Sending Notifications to Android using local device",
-              "Third Party Services"
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Testing, Native Modules & Release to Production",
-      "master": [
-        {
-          "title": "Testing in Java",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-            "What to test",
-            "Organizing tests",
-            "Types of tests in Java"
-          ]
-        },
-        {
-          "title": "Native Modules",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-              "Setup",
-              "Android calendar module example",
-              "Android Toast module example"
-          ]
-        },
-        {
-          "title": "Release to Production",
-          "keywords": "",
-          "notes": "",
-          "summarize": "",
-          "detail": [
-            "Google play account setup",
-            "Build & release apk to upload at playstore",
-            "Over the Air Updates",
-            "How to make privacy policy with generator"
-          ]
-        }
-      ]
-    }
+  {
+    "id": 1,
+    "title": "Foundation, Navigation, Layouting and Animations",
+    "master": [
+      {
+        "title": "Foundation",
+        "competence": [],
+        "course": [
+          {
+            "title": "",
+            "content": ""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Architecture & Project setup",
+          "Layout",
+          "Styling",
+          "Using List (Recyclerview)",
+          "Forms"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Navigation",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Types of navigations",
+          "Navigation Drawer",
+          "Bottom Navigation Drawer"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Layouting",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Types of Layouts",
+          "Types of Common",
+          "Types of Text",
+          "Types of Buttons",
+          "Types of Widgets",
+          "Types of Containers",
+          "Types of Google",
+          "Types of Legacy"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Animations",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": ["Basic Animations", "Third Party Services"],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Gestures, Offline, Assets Management & Push Notifications",
+    "master": [
+      {
+        "title": "Gestures",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "PanGestureHandler",
+          "RotationGestureHandler",
+          "PinchGestureHandler",
+          "Gestures Lifecycle",
+          "Composing Handlers"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Componentization",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Handling Offline & Assets Management",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Assets Tool recommendations",
+          "Recommended plugin for asset Android Studio",
+          "App icons",
+          "Splash screen for Android",
+          "Other assets per platform",
+          "Handling offline requests",
+          "Notifying the user of their connection status"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Push Notifications",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Sending Notifications to Android using FCM",
+          "Sending Notifications to Android using local device",
+          "Third Party Services"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Testing, Native Modules & Release to Production",
+    "master": [
+      {
+        "title": "Testing in Java",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": ["What to test", "Organizing tests", "Types of tests in Java"],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Native Modules",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Setup",
+          "Android calendar module example",
+          "Android Toast module example"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      },
+      {
+        "title": "Release to Production",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
+        "keywords": "",
+        "notes": "",
+        "summarize": "",
+        "detail": [
+          "Google play account setup",
+          "Build & release apk to upload at playstore",
+          "Over the Air Updates",
+          "How to make privacy policy with generator"
+        ],
+        "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ]
+      }
+    ]
+  }
 ]
-  
