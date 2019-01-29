@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import _ from "lodash";
-import "./Intro.styles.scss";
+import "../../styles/main.styles.scss";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import IntroCard from "./IntroCard";
@@ -13,8 +12,8 @@ class Index extends Component {
         <Navbar />
         <div className="container-modern-intro">
           <p className="title-top">React JS Curriculum</p>
-          <IntroCard/>          
-        </div>        
+          <IntroCard />
+        </div>
       </>
     );
   }

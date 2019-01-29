@@ -3,8 +3,22 @@
     "id": 1,
     "title": "Modern JavaScript",
     "master": [
-      {
+      {        
         "title": "Modern JavaScript for React - ES6 and beyond",
+        "competence": [
+          "Dapat memahami apakah ES6 itu",          
+          "Dapat memahami kenapa harus pakai ES6"
+        ],
+        "course": [
+          {
+            "title":"Javascript ES6",
+            "content":"Javascript ES6 membawa sintaks-sintaks baru dan fitur-fitur baru yang mengagumkan untuk membuat kode kita lebih modern dan mudah untuk dibaca. Ini membuat kita hanya menuliskan sedikit kode dan lebih banyak manfaatnya. ES6 memperkenalkan kita pada fitur-fitur seperti arrow functions, template literal, class, destructuring, modules dan masih banyak lagi. Pada materi berikutnya kita akan belajar bagaimana fitur-fitur ini bekerja."
+          },
+          {
+            "title":"Sejarah",
+            "content":"Perusahaan bernama Netscape/Mozilla adalah pencipta pertama JavaScript yang digunakan untuk melakukan manipulasi HTML/DOM di browser Netscape/Firefox. Karena kesuksesan Netscape mengembangkan bahasa JavaScript, Microsoft pun tak mau ketinggalan, mereka menciptakan bahasa serupa bernama JScript. Perbedaan inilah yang menyebabkan hasil yang berbeda ketika website dijalankan di browser Netscape dan IE. Untuk mengatasi hal tersebut, dibuatlah EcmaScript yang merupakan standarisasi dari client-side scripting. Sehingga JavaScript dan JScript disepakati sebagai implementasi dari EcmaScript, termasuk juga Action Script. Namun karena JavaScript adalah bahasa yang paling pertama dibuat, maka orang-orang lebih mengistilahkan EcmaScript dengan Sebutan JavaScript.EcmaScript sendiri sebenarnya dilahirkan dari JavaScript asli, sehingga secara fitur, tidak ada perbedaan antara JavaScript dan EcmaScript. Sedangkan untuk versi JScript sendiri, ada sedikit perbedaan namun masih tetap mendukung fitur-fitur yang ada di versi standar EcmaScript. JavaScript yang kita kenal saat ini, adalah EcmaScript versi 5 (ES5). EcmaScript sendiri saat ini sudah sampai versi 6 (ES6/ES2015), namun belum support untuk semua browser. Sehingga untuk menggunakannya, ES6 harus ditranspile (dirubah) menjadi ES5/JavaScript dengan tool yang bernama Babel."
+          }
+        ],
         "keywords": [
           "JavaScript(JS)",
           "es6 2015"
@@ -27,6 +41,13 @@
       },
       {
         "title": "Let and Const vs Var",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "var",
           "let",
@@ -40,10 +61,22 @@
           "selain const, deklarasi variabel bisa dirubah."
         ],
         "summarize": "pada dasarnya deklarasi variabel di javascript hanya terbagi ke dalam 3 bagian var, let, dan const. sesuai dengan scope dan kegunaannya. rekomendasi untuk sekarang karena hampir semua browser telah support ES6 2015 maka untuk deklarasi variabel lebih direkomendasikan untuk memakai let daripada var. Alasannya sederhana karena var lebih global scope maka jika kita mendeklarasikan variabel dengan var di awal code dan jika code ini sudah jutaan dan kita deklarasikan dengan nama yang sama maka kode yang berada di awal tadi akan tertimpa. Sehingga menyebabkan kode tadi sudah tidak berfungsi lagi.",
-        "useable_link": []
+        "useable_link": [
+          {
+            "url":"https://medium.com/coderupa/es6-var-let-const-apa-bedanya-1cd4daaee9f0",
+            "title":"var, let, const dan scope"
+          }
+        ]
       },
       {
         "title": "Arrow Functions, Class syntax, Template literal",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "arrow function",
           "template literal",
@@ -59,7 +92,7 @@
 
         ],
         "summarize": "Arrow function merupakan cara penulisan syntax dari ES6 dengan tujuan utamanya adalah membuat syntax javascript kita menjadi lebih ringkas. Sedangkan Class suatu deklarasi kelaf dan class memiliki 2 jenis parameter yaitu function dan constructor.",
-        "usable_link": [
+        "useable_link": [
           {
             "url": "https://medium.com/@renopp/kenalan-dengan-es6-javascript-introduction-variable-arrow-function-part1-6bd5c148473b",
             "title": "Arrow Function"
@@ -76,6 +109,13 @@
       },
       {
         "title": "Destructuring",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "Destructuring"
         ],
@@ -93,6 +133,13 @@
       },
       {
         "title": "Default parameters, Rest parameter, Spread operator",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "default parameters",
           "rest parameter",
@@ -117,6 +164,13 @@
       },
       {
         "title": "Iterators and functional programming in JS",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "Itertors",
           "next()",
@@ -143,6 +197,13 @@
       },
       {
         "title": "Modules",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "import",
           "define",
@@ -163,6 +224,13 @@
       },
       {
         "title": "Promises",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           ".then",
           ".catch"
@@ -182,6 +250,13 @@
       },
       {
         "title": "ES6 exercise using TDD",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -191,10 +266,17 @@
   },
   {
     "id": 2,
-    "title": "Thinking in React",
+    "title": "Thinking in React",    
     "master": [
       {
         "title": "The Imperative to Declarative Shift",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -202,6 +284,13 @@
       },
       {
         "title": "Componentization",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -209,6 +298,13 @@
       },
       {
         "title": "What is React made up of",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -221,6 +317,13 @@
       },
       {
         "title": "Composition",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -228,6 +331,13 @@
       },
       {
         "title": "Virtual DOM and JSX",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "Virtual DOM",
           "JSX"
@@ -259,6 +369,13 @@
       },
       {
         "title": "Developer tools",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -268,10 +385,17 @@
   },
   {
     "id": 3,
-    "title": "Routing & Data Fetching",
+    "title": "Routing & Data Fetching",    
     "master": [
       {
         "title": "React Router v4",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -283,21 +407,34 @@
       },
       {
         "title": "Component lifecycle",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": [
           "component lifecycle"
         ],
-        "notes": "Component Lifecycle adalah alur jalannya pengeksekusian component dari awal hingga akhir",
+        "notes": ["Component Lifecycle adalah alur jalannya pengeksekusian component dari awal hingga akhir"],
         "summarize": "Beberapa method mempunyai prefix will dan did yang menunjukkan kapan method tersebut akan dieksekusi.",
         "useable_link": [
           {
             "url": "https://medium.com/skyshidigital/react-component-lifecycle-wajib-bagi-yang-sedang-belajar-react-b46049b97788",
             "title": "Lifecycle Component ES6"
           }
-        ],
-        "useable_link": []
+        ]
       },
       {
         "title": "Data management",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -315,6 +452,13 @@
     "master": [
       {
         "title": "Forms management in React",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -326,6 +470,13 @@
       },
       {
         "title": "Authentication",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -343,6 +494,13 @@
     "master": [
       {
         "title": "CSS Vs JS",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -350,6 +508,13 @@
       },
       {
         "title": "Styled-components",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -357,6 +522,13 @@
       },
       {
         "title": "Component libraries comparison: SemanticUI, MaterialUI, Rebass, and React-Bootstrap",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -364,6 +536,13 @@
       },
       {
         "title": "Storybook",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -377,6 +556,13 @@
     "master": [
       {
         "title": "Introduction to functional programming",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -390,6 +576,13 @@
       },
       {
         "title": "Redux Principles",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -401,6 +594,13 @@
       },
       {
         "title": "React-Redux: Provider and Connect",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -408,6 +608,13 @@
       },
       {
         "title": "Build your own version of Redux using TDD",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -415,6 +622,13 @@
       },
       {
         "title": "Fetching data from the server to Redux",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -422,6 +636,13 @@
       },
       {
         "title": "Configure Redux from scratch in a React app",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -435,6 +656,13 @@
     "master": [
       {
         "title": "Build your own test framework in JavaScript",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -442,6 +670,13 @@
       },
       {
         "title": "Testing Redux using Jest",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -449,6 +684,13 @@
       },
       {
         "title": "Mocking and testing API calls",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -456,6 +698,13 @@
       },
       {
         "title": "White-box testing Vs. Black-box testing",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -469,6 +718,13 @@
     "master": [
       {
         "title": "Functional programming (FP)",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",
@@ -479,6 +735,13 @@
       },
       {
         "title": "Advanced React patterns to reuse functionality across components",
+        "competence": [],
+        "course": [
+          {
+            "title":"",
+            "content":""
+          }
+        ],
         "keywords": "",
         "notes": "",
         "summarize": "",

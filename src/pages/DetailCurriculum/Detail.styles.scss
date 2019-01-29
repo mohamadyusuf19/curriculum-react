@@ -5,7 +5,7 @@
   margin-left: 250px;
   padding: 10px;
   .title-top {
-    margin-left: 30px;
+    margin-left: 60px;
     font-weight: 700;
     font-size: 18px;
   }
@@ -90,11 +90,35 @@
       }
     }
   }
+  .competence {    
+    padding: 30px;    
+    h4 {
+      margin: 0px;
+    }
+    .table-competence {
+      border: solid 0.5px #eae6c5;
+      padding: 15px;
+      margin: 0px;              
+    }
+    .background {
+      background: #eae6c5;
+    }
+  }
+  .wrapper-course {
+    padding-left: 30px;
+    padding-right: 30px;
+    p {
+      text-indent: 50px !important;
+    }
+    .content-course {      
+      line-height: 2em;
+    }
+  }   
   .notes {
     // border-right: solid 3px brown;
     // border-left: solid 3px brown;
     // border-top: solid 3px brown;
-    border-top-left-radius: 15px;
+    // border-top-left-radius: 15px;
     padding: 30px;
     margin-top: 30px;
     display: flex;
@@ -124,7 +148,7 @@
   }
   .summarize {
     padding: 30px;
-    background: #CCC8C8;
+    background: #eae6c5;
     margin: 30px;    
     .title {
       font-size: 16px;

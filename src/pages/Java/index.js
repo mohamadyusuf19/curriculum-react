@@ -7,7 +7,7 @@ import {
   expandActions,
   detailCurriculumActions
 } from "../../redux/actions/IntroActions";
-import "./styles.scss";
+import "../../styles/main.styles.scss";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import Card from "../../components/Card";
@@ -50,8 +50,7 @@ class Index extends Component {
                   ? dataJava.map((detail, indexId) => {
                     return (
                       <ul key={detail.title}>
-                        <li className="text-detail">
-                          {detail.title}{" "}
+                        <li className="text-detail">                  
                           <Link
                             to="/detail"
                             className="italic"
@@ -59,8 +58,8 @@ class Index extends Component {
                               [this.props.detailCurriculumActions(detail, indexId + 1), this.props.IntroJava(master, id, true, 'reactnative')]
                             }
                           >
-                            [ lihat detail ]
-                            </Link>
+                            {detail.title}{" "}
+                          </Link>
                         </li>
                         {_.isArray(detail.detail)
                           ? detail.detail.map((i, index) => {

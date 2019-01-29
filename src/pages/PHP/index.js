@@ -21,7 +21,7 @@ class Index extends Component {
         <Header />
         <Navbar />
         <div className="container-modern-intro">
-          <p className="title-top">React Native Curriculum</p>
+          <p className="title-top">PHP Curriculum</p>
           {Data.map((item, index) => {
             const { id, title, master } = item;
             return (

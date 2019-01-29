@@ -5,6 +5,7 @@ import Detail from '../pages/DetailCurriculum';
 import ReactJs from '../pages/ReactJs';
 import ReactNative from '../pages/ReactNative';
 import Java from '../pages/Java';
+import PHP from '../pages/PHP';
 
 export default function index() {
     return (
@@ -15,6 +16,7 @@ export default function index() {
                 <Route path="/detail" component={Detail} />
                 <Route path="/reactnative" component={ReactNative} />
                 <Route path="/java" component={Java} />
+                <Route path="/php" component={PHP} />
             </Switch>
         </BrowserRouter>
     )

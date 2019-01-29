@@ -1,11 +1,11 @@
-@import "../../utils/colors.scss";
+@import "../utils/colors.scss";
 
 .container-modern-intro {
     margin-top: 60px;
     margin-left: 250px;
     padding: 10px;
     .title-top {
-        margin-left: 30px;
+        margin-left: 60px;
         font-weight: 700;
         font-size: 18px;        
     }
@@ -68,8 +68,7 @@
     .text-detail {
         line-height: 2em;
     }
-    .italic {
-        color: #FF3939;
+    .italic {        
         cursor: pointer;
     }
 }

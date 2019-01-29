@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import _ from "lodash";
 import { Link } from "react-router-dom";
-import "./Intro.styles.scss";
+import "../../styles/main.styles.scss";
 import { connect } from "react-redux";
 import { Intro, expandActions, detailCurriculumActions } from "../../redux/actions/IntroActions";
 import Card from "../../components/Card";
@@ -41,14 +41,13 @@ class IntroCard extends Component {
                 ? data.map((detail, indexId) => {
                     return (
                       <ul key={detail.title}>
-                        <li className="text-detail">
-                          {detail.title} {" "}
+                        <li className="text-detail">                  
                           <Link
                             to="/detail"
                             className="italic"                            
                             onClick={() => [this.props.detailCurriculumActions(detail,indexId+1), this.props.Intro(master, id, true, 'reactjs')]}
                           >                            
-                            => detail
+                          {detail.title} {" "}
                           </Link>
                         </li>
                         {_.isArray(detail.detail)
