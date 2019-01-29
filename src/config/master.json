@@ -42,7 +42,11 @@
       },
       {
         "title": "Let and Const vs Var",
-        "competence": [],
+        "competence": [
+          "Dapat mengetahui perbedaan var, let dan const",
+          "Dapat Membuat deklarasi variabel sesuai dengan tempatnya",
+          "Dapat mengatahui maksud dari scope"
+        ],
         "course": [
           {
             "title":"",

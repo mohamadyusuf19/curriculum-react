@@ -29,7 +29,7 @@
             transform: translateX(-70px);        
         }        
         .button-detail {
-            background: $primary-color;
+            background: $secondary-color;
             height: 40px;
             width: 40px;
             display: flex;
@@ -47,7 +47,7 @@
             transform: rotate(180deg);
         }
         .button-detail-active {
-            background: $primary-color;
+            background: $secondary-color;
             height: 40px;
             width: 40px;
             display: flex;
@@ -69,6 +69,7 @@
         line-height: 2em;
     }
     .italic {        
+        color: $secondary-gold-color;
         cursor: pointer;
     }
 }

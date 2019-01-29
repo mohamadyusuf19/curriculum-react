@@ -1,7 +1,7 @@
 @import "../../utils/colors.scss";
 
 .header {
-  background: $primary-color;
+  background: $secondary-color;
   top: 0;
   position: fixed;  
   height: 60px;
@@ -9,7 +9,7 @@
   display: flex;
   z-index: 10;      
   align-items: center;
-  padding-left: 20px;
+  padding-left: 20px;  
   .wrap-logo {
     height: 50px;
     width: 50px;  
