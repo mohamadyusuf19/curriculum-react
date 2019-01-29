@@ -39,7 +39,7 @@
     .button-row {
       display: flex;
       .button-detail {
-        background: $primary-color;
+        background: $secondary-color;
         height: 40px;
         width: 40px;
         display: flex;
@@ -54,7 +54,7 @@
       }
       .button-detail-right {
         margin-left: 10px;
-        background: $primary-color;
+        background: $secondary-color;
         height: 40px;
         width: 40px;
         display: flex;
@@ -101,14 +101,14 @@
       margin: 0px;  
       .number {
         border: solid 0.5px #eae6c5;
-        padding: 20px;
+        padding: 8px;
       } 
       .item {
         width: 100%;
         border: solid 0.5px #eae6c5;
         padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
       }           
       .background {
         background: #eae6c5;
@@ -116,19 +116,19 @@
     }
     .table-background {
       background: #eae6c5;
-      padding: 20px;
+      padding: 10px;
       text-align: center;
       margin-top: 30px;
     }
   }
   .wrapper-course {
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 30px;    
     p {
-      text-indent: 50px !important;//untuk membuat alinea baru menjorok kedalam
+      text-indent: 50px !important;//untuk membuat alinea baru menjorok kedalam      
     }
     .content-course {      
-      line-height: 2em;
+      line-height: 2em;      
     }
   }   
   .notes {
