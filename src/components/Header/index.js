@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.styles.scss';
-const logoIcon = require('../../assets/pondok_programmer.png')
+const logoIcon = require('../../assets/pp.png')
 
 export default function index() {
     return (
