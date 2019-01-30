@@ -107,6 +107,18 @@ class Detail extends Component {
                   })}
                 </div>
               ) : null}
+              {dataDetail.images.length > 0 ? (
+                  <div className="wrapper-images">
+                  {dataDetail.images.map((item,index)=> {
+                    return (
+                      <div key={item.title}>                        
+                        <img src={item.url} alt={item.title} />
+                        <p className="text-images">gambar{index+1}: {item.title}</p>
+                      </div>
+                    )
+                  })}
+                  </div>
+                ):null}
               {dataDetail.notes.length > 0 ? (
                 <div className="notes">
                   <div>

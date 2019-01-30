@@ -27,6 +27,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -54,6 +60,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -75,6 +87,12 @@
           "Composing animations"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -113,6 +131,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -128,6 +152,12 @@
         "notes": "",
         "summarize": "",
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -160,6 +190,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -181,6 +217,12 @@
           "Third Party Services"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -216,6 +258,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -243,6 +291,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -265,6 +319,12 @@
           "Introducing fastlane & Using CI to build your apps"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""

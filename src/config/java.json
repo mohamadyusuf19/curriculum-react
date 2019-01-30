@@ -27,6 +27,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -47,6 +53,12 @@
           "Bottom Navigation Drawer"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -80,6 +92,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -96,6 +114,12 @@
         "summarize": "",
         "detail": ["Basic Animations", "Third Party Services"],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -132,6 +156,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -147,6 +177,12 @@
         "notes": "",
         "summarize": "",
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -179,6 +215,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -199,6 +241,12 @@
           "Third Party Services"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -229,6 +277,12 @@
             "url":"",
             "title":""
           }
+        ],
+        "images": [
+          {
+            "url":"",
+            "title":""
+          }
         ]
       },
       {
@@ -249,6 +303,12 @@
           "Android Toast module example"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""
@@ -274,6 +334,12 @@
           "How to make privacy policy with generator"
         ],
         "useable_link": [
+          {
+            "url":"",
+            "title":""
+          }
+        ],
+        "images": [
           {
             "url":"",
             "title":""

@@ -52,6 +52,9 @@
           color: #fff;
         }
       }
+      .button-detail:hover {
+        background: #eae6c5;
+      }
       .button-detail-right {
         margin-left: 10px;
         background: $secondary-color;
@@ -67,9 +70,15 @@
           color: #fff;
         }
       }
+      .button-detail-right:hover {
+        background: #eae6c5
+      }
       .white {
         background: #fff;
         cursor: default;
+      }
+      .white:hover {
+        background: #fff;
       }
     }
 
@@ -123,7 +132,8 @@
   }
   .wrapper-course {
     padding-left: 30px;
-    padding-right: 30px;    
+    padding-right: 30px; 
+    text-align: justify;   
     p {
       text-indent: 50px !important;//untuk membuat alinea baru menjorok kedalam      
     }
@@ -131,6 +141,10 @@
       line-height: 2em;      
     }
   }   
+  .wrapper-images {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .notes {
     // border-right: solid 3px brown;
     // border-left: solid 3px brown;
@@ -210,17 +224,48 @@
     margin-left: 0px;
     padding: 5px;
     .row {    
-      display: block;        
+      display: block;                    
       .wrapper-title {
         width: 100%;  
         padding: 2px;      
+        margin-bottom: 20px;
         .title {          
           font-size: 13px;
+          text-align: center;
         }
       }      
     }
     .notes {
       display: block;      
+      padding: 0px;
+    }
+    .wrapper-course {
+      padding: 0px;
+    }
+    .competence {
+      padding: 0px;
+    }
+    .exercise {
+      padding: 0px;
+    }
+    .summarize {
+      margin: 0px;
+      margin-top: 20px;
+    }
+    .wrapper-source {       
+      word-wrap: break-word;
+      padding: 0px;
+      .source {               
+        padding-left: 0px;
+        .source-belajar {
+          margin-left: 8px;
+        }
+        .div-url {          
+          a {                        
+            display: block;
+          }          
+        }
+      }      
     }
   }
 }
