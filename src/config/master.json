@@ -3,21 +3,21 @@
     "id": 1,
     "title": "Modern JavaScript",
     "master": [
-      {        
+      {
         "title": "Modern JavaScript for React - ES6 and beyond",
         "competence": [
-          "Dapat memahami apakah ES6 itu",          
+          "Dapat memahami apakah ES6 itu",
           "Dapat memahami kenapa harus pakai ES6",
           "Dapat mengetahui fitur-fitur apa saja yang ada di ES6"
         ],
-        "course": [          
+        "course": [
           {
-            "title":"Sejarah",
-            "content":"Perusahaan bernama Netscape/Mozilla adalah pencipta pertama JavaScript yang digunakan untuk melakukan manipulasi HTML/DOM di browser Netscape/Firefox. Karena kesuksesan Netscape mengembangkan bahasa JavaScript, Microsoft pun tak mau ketinggalan, mereka menciptakan bahasa serupa bernama JScript. Perbedaan inilah yang menyebabkan hasil yang berbeda ketika website dijalankan di browser Netscape dan IE. Untuk mengatasi hal tersebut, dibuatlah EcmaScript yang merupakan standarisasi dari client-side scripting. Sehingga JavaScript dan JScript disepakati sebagai implementasi dari EcmaScript, termasuk juga Action Script. Namun karena JavaScript adalah bahasa yang paling pertama dibuat, maka orang-orang lebih mengistilahkan EcmaScript dengan Sebutan JavaScript.EcmaScript sendiri sebenarnya dilahirkan dari JavaScript asli, sehingga secara fitur, tidak ada perbedaan antara JavaScript dan EcmaScript. Sedangkan untuk versi JScript sendiri, ada sedikit perbedaan namun masih tetap mendukung fitur-fitur yang ada di versi standar EcmaScript. JavaScript yang kita kenal saat ini, adalah EcmaScript versi 5 (ES5). EcmaScript sendiri saat ini sudah sampai versi 6 (ES6/ES2015), namun belum support untuk semua browser. Sehingga untuk menggunakannya, ES6 harus ditranspile (dirubah) menjadi ES5/JavaScript dengan tool yang bernama Babel."
+            "title": "Sejarah",
+            "content": "Perusahaan bernama Netscape/Mozilla adalah pencipta pertama JavaScript yang digunakan untuk melakukan manipulasi HTML/DOM di browser Netscape/Firefox. Karena kesuksesan Netscape mengembangkan bahasa JavaScript, Microsoft pun tak mau ketinggalan, mereka menciptakan bahasa serupa bernama JScript. Perbedaan inilah yang menyebabkan hasil yang berbeda ketika website dijalankan di browser Netscape dan IE. Untuk mengatasi hal tersebut, dibuatlah EcmaScript yang merupakan standarisasi dari client-side scripting. Sehingga JavaScript dan JScript disepakati sebagai implementasi dari EcmaScript, termasuk juga Action Script. Namun karena JavaScript adalah bahasa yang paling pertama dibuat, maka orang-orang lebih mengistilahkan EcmaScript dengan Sebutan JavaScript.EcmaScript sendiri sebenarnya dilahirkan dari JavaScript asli, sehingga secara fitur, tidak ada perbedaan antara JavaScript dan EcmaScript. Sedangkan untuk versi JScript sendiri, ada sedikit perbedaan namun masih tetap mendukung fitur-fitur yang ada di versi standar EcmaScript. JavaScript yang kita kenal saat ini, adalah EcmaScript versi 5 (ES5). EcmaScript sendiri saat ini sudah sampai versi 6 (ES6/ES2015), namun belum support untuk semua browser. Sehingga untuk menggunakannya, ES6 harus ditranspile (dirubah) menjadi ES5/JavaScript dengan tool yang bernama Babel."
           },
           {
-            "title":"Javascript ES6",
-            "content":"Javascript ES6 membawa sintaks-sintaks baru dan fitur-fitur baru yang mengagumkan untuk membuat kode kita lebih modern dan mudah untuk dibaca. Ini membuat kita hanya menuliskan sedikit kode dan lebih banyak manfaatnya. ES6 memperkenalkan kita pada fitur-fitur seperti arrow functions, template literal, class, destructuring, modules dan masih banyak lagi. Pada materi berikutnya kita akan belajar bagaimana fitur-fitur ini bekerja."
+            "title": "Javascript ES6",
+            "content": "Javascript ES6 membawa sintaks-sintaks baru dan fitur-fitur baru yang mengagumkan untuk membuat kode kita lebih modern dan mudah untuk dibaca. Ini membuat kita hanya menuliskan sedikit kode dan lebih banyak manfaatnya. ES6 memperkenalkan kita pada fitur-fitur seperti arrow functions, template literal, class, destructuring, modules dan masih banyak lagi. Pada materi berikutnya kita akan belajar bagaimana fitur-fitur ini bekerja."
           }
         ],
         "keywords": [
@@ -41,8 +41,8 @@
         ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -57,13 +57,13 @@
         ],
         "course": [
           {
-            "title":"Tipe Data",
-            "content":"Didalam dunia programming banyak istilah yang harus kita tahu terutama masalah data. Kenapa data ? karena di dalam membuat suatu aplikasi, pasti kita akan menemukan yang namanya data atau kumpulan informasi. Di Javascript sendiri data-data tersebut dibagi lagi kedalam beberapa jenis-jenis. Agar memudahkan kita didalam mengkategorikannya. Nah jenis-jenis data ini biasa disebut tipe data. Tipe data dalam JavaScript dibedakan menjadi 2 kelompok, yakni tipe data dasar (primitif) dan tipe data objek. Tipe data dasar terdiri dari tipe data angka, tipe data text (string), dan tipe data boolean. Tipe data null dan undefined juga merupakan tipe data dasar, namun memiliki jenis tersendiri. Selain ke-5 tipe data dasar tersebut, tipe data lain yang ada di dalam JavaScript adalah tipe data objek. Contoh tipe data objek adalah tipe data tanggal (date), array, dan objek itu sendiri."
+            "title": "Tipe Data",
+            "content": "Didalam dunia programming banyak istilah yang harus kita tahu terutama masalah data. Kenapa data ? karena di dalam membuat suatu aplikasi, pasti kita akan menemukan yang namanya data atau kumpulan informasi. Di Javascript sendiri data-data tersebut dibagi lagi kedalam beberapa jenis-jenis. Agar memudahkan kita didalam mengkategorikannya. Nah jenis-jenis data ini biasa disebut tipe data. Tipe data dalam JavaScript dibedakan menjadi 2 kelompok, yakni tipe data dasar (primitif) dan tipe data objek. Tipe data dasar terdiri dari tipe data angka, tipe data text (string), dan tipe data boolean. Tipe data null dan undefined juga merupakan tipe data dasar, namun memiliki jenis tersendiri. Selain ke-5 tipe data dasar tersebut, tipe data lain yang ada di dalam JavaScript adalah tipe data objek. Contoh tipe data objek adalah tipe data tanggal (date), array, dan objek itu sendiri."
           },
           {
-            "title":"Deklarasi Variabel",
-            "content":"Untuk menggunakan berbagai jenis tipe data diatas agar dapat kita gunakan kita harus mendeklarasikan variabel terlebih dahulu. Dahulu sebelum adanya ES6 deklarasi variabel hanya menggunakan var, namun sekarang dengan adanya ES6 deklarasi variabel jadi lebih bervariasi, terstruktur dan berkategori. Selain adanya var, dengan ES6 kita juga bisa memakai let dan const. Nah apa bedanya ke-3 deklarasi variabel tersebut ?"
-          }          
+            "title": "Deklarasi Variabel",
+            "content": "Untuk menggunakan berbagai jenis tipe data diatas agar dapat kita gunakan kita harus mendeklarasikan variabel terlebih dahulu. Dahulu sebelum adanya ES6 deklarasi variabel hanya menggunakan var, namun sekarang dengan adanya ES6 deklarasi variabel jadi lebih bervariasi, terstruktur dan berkategori. Selain adanya var, dengan ES6 kita juga bisa memakai let dan const. Nah apa bedanya ke-3 deklarasi variabel tersebut ?"
+          }
         ],
         "keywords": [
           "tipe data",
@@ -80,7 +80,7 @@
           "Primitive: string, integer, float, boolean.",
           "Object untuk tipe data bukan primitive artinya harus memiliki key dan value",
           "String untuk tipe data text contoh: let divisi = 'JavaScript'",
-          "Integer untuk tipe data number contoh: let angka = 2",          
+          "Integer untuk tipe data number contoh: let angka = 2",
           "Object contoh: let divisi : { nama : 'JavaScript' }",
           "Array contoh: let divisi: ['JavaScript']",
           "var adalah deklarasi variabel global.",
@@ -91,18 +91,18 @@
         "summarize": "pada dasarnya deklarasi variabel di javascript hanya terbagi ke dalam 3 bagian var, let, dan const. sesuai dengan scope dan kegunaannya. rekomendasi untuk sekarang karena hampir semua browser telah support ES6 2015 maka untuk deklarasi variabel lebih direkomendasikan untuk memakai let daripada var. Alasannya sederhana karena var lebih global scope maka jika kita mendeklarasikan variabel dengan var di awal code dan jika code ini sudah jutaan dan kita deklarasikan dengan nama yang sama maka kode yang berada di awal tadi akan tertimpa. Sehingga menyebabkan kode tadi sudah tidak berfungsi lagi.",
         "useable_link": [
           {
-            "url":"https://www.w3schools.com/js/js_datatypes.asp",
-            "title":"Tipe data"
+            "url": "https://www.w3schools.com/js/js_datatypes.asp",
+            "title": "Tipe data"
           },
           {
-            "url":"https://medium.com/coderupa/es6-var-let-const-apa-bedanya-1cd4daaee9f0",
-            "title":"var, let, const dan scope"
+            "url": "https://medium.com/coderupa/es6-var-let-const-apa-bedanya-1cd4daaee9f0",
+            "title": "var, let, const dan scope"
           }
         ],
         "images": [
           {
-            "url":"https://cdn-images-1.medium.com/max/800/1*sUBeBuOB8pAuMPfw9BQmvA.png",
-            "title":"perbedaan var, let dan const pada scope"
+            "url": "https://cdn-images-1.medium.com/max/800/1*sUBeBuOB8pAuMPfw9BQmvA.png",
+            "title": "perbedaan var, let dan const pada scope"
           }
         ]
       },
@@ -111,8 +111,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -127,7 +127,6 @@
           "Salah satu keuntungan kembali kita menggunakan arrow function adalah kita bisa menggunakan ‘this’ tanpa perlu membuat that = this. Ada kawan-kawan yang pernah pakai that = this?",
           "Syntax Arrow Function pada ES6 secara umum seperti ini. () => { ... } // no parameter",
           "Class dapat mencakup 2 hal berikut : Sebuah fungsi konstruktor diinisialisasi dengan sejumlah parameter, yang akan ditugaskan sebagai properti this, mengacu pada fungsi itu sendiri. Huruf pertama dari pengidentifikasi akan dikapitalisasi oleh konvensi. Kita tahu fungsi konstruktor dimaksudkan untuk menjadi cetak biru objek dengan huruf kapital huruf pertama dari penginisialisasi (yang opsional) dan melalui keakraban dengan sintaksis. Kata classkunci berkomunikasi dengan cara yang lebih mudah, tujuan fungsi kami.Satu-satunya perbedaan dalam sintaks inisialisasi adalah menggunakan classkata kunci alih-alih function, dan menetapkan properti di dalam constructor()metode."
-
         ],
         "summarize": "Arrow function merupakan cara penulisan syntax dari ES6 dengan tujuan utamanya adalah membuat syntax javascript kita menjadi lebih ringkas. Sedangkan Class suatu deklarasi kelaf dan class memiliki 2 jenis parameter yaitu function dan constructor.",
         "useable_link": [
@@ -143,11 +142,11 @@
             "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
             "title": "Template Literals"
           }
-        ],        
+        ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -156,8 +155,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -176,8 +175,8 @@
         ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -186,8 +185,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -213,8 +212,8 @@
         ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -223,8 +222,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -252,8 +251,8 @@
         ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -262,8 +261,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -285,8 +284,8 @@
         ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -295,8 +294,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -317,8 +316,8 @@
         ],
         "images": [
           {
-            "url":"",
-            "title":""
+            "url": "",
+            "title": ""
           }
         ]
       },
@@ -327,8 +326,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -341,15 +340,15 @@
   },
   {
     "id": 2,
-    "title": "Thinking in React",    
+    "title": "Thinking in React",
     "master": [
       {
         "title": "The Imperative to Declarative Shift",
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -363,8 +362,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -378,8 +377,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -398,8 +397,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -413,8 +412,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
@@ -452,8 +451,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -466,15 +465,15 @@
   },
   {
     "id": 3,
-    "title": "Routing & Data Fetching",    
+    "title": "Routing & Data Fetching",
     "master": [
       {
         "title": "React Router v4",
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -492,14 +491,16 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": [
           "component lifecycle"
         ],
-        "notes": ["Component Lifecycle adalah alur jalannya pengeksekusian component dari awal hingga akhir"],
+        "notes": [
+          "Component Lifecycle adalah alur jalannya pengeksekusian component dari awal hingga akhir"
+        ],
         "summarize": "Beberapa method mempunyai prefix will dan did yang menunjukkan kapan method tersebut akan dieksekusi.",
         "useable_link": [
           {
@@ -514,8 +515,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -539,8 +540,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -558,8 +559,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -580,17 +581,42 @@
     "master": [
       {
         "title": "CSS Vs JS",
-        "competence": [],
+        "competence": [
+          "Mengetahui fungsi & kegunaan CSS",
+          "Cara menuliskan CSS di HTML",
+          "Memahami penulisan JS pada HTML"
+        ],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "CSS",
+            "content": "CSS adalah kumpulan kode program yang digunakan untuk mendesain atau mempercantik tampilan halaman html. Dengan CSS kita bisa mengubah desain dari teks, link, warna, gambar, dan latar belakang dari hampir semua kode html."
+          },
+          {
+            "title": "Javascript",
+            "content": "adalah bahasa pemograman yang digunakan untuk membuat interaksi atau menambah fitur dinamis ke dalam halaman web. Untuk membuat website, kita harus menggunakan fitur JavaScript. Namun, saat ini javascript hampir digunakan hampir dalam setiap web modern. Sehingga bahasa pemograman web, JavaScript merupakan salah satu bahasa pemograman yang wajib dikuasa"
           }
         ],
-        "keywords": "",
-        "notes": "",
-        "summarize": "",
-        "useable_link": [],
+        "keywords": ["Struktur dasar CSS", "Mengetahui kelebihan CSS","Mengenal pemrograman JS"],
+        "notes": [
+          "CSS atau Cascading Style Sheets merupakan bahasa desainer web",
+          "CSS adalah kumpulan kode yang digunakan untuk mendefenisikan desain dari bahasa markup, dimana bahasa markup ini salah satunya adalah html.",
+          "CSS biasanya selalu dikaitkan dengan html, karena keduanya memang saling melengkapi.", "Javascipt memiliki nama agak menyesatkan karena mirip dengan platform untuk software java milik oracle. Padahal tidak ada hubungannya sama sekali, dan juga javascript bukan scripting language.", "Javascript secara umum dipergunakan untuk memanipulasi document ' Document Object Model (DOM) ' yang meliput elemen-elemen pada sebuah halaman web. Jadi, sebuah bahasa pemograman yang dirancang untuk penggunaan browser (peramban) web."
+        ],
+        "summarize": "CSS membantu kita untuk memperindah tampilan web kita, Sedangkan Javascript adalah bahasa pemograman yang dirancang untuk berjalan dilingkungan klien yang dikombinasikan dengan dokumen HTML. Javacript dijalankan dengan bantuan browser sehingga dapat melakukan interaksi dengan user, melakukan kontrol browser dan memanipulasi dokumen web atau materi web saat ditampilkan serta beberapa validasi data",
+        "useable_link": [
+          {
+            "title": "CSS",
+            "url": "https://www.w3schools.com/css/default.asp"
+          },
+          {
+            "title": "Tips belajas CSS",
+            "url": "https://www.petanikode.com/css-untuk-pemula/"
+          },
+          {
+            "title": "Javacsript",
+            "url": "https://www.petanikode.com/tutorial/javascript/"
+          }
+        ],
         "images": []
       },
       {
@@ -598,8 +624,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -613,8 +639,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -628,8 +654,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -649,8 +675,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -670,8 +696,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -689,8 +715,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -704,8 +730,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -719,8 +745,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -734,8 +760,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -755,8 +781,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -770,8 +796,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -785,8 +811,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -800,8 +826,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -821,8 +847,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
@@ -839,8 +865,8 @@
         "competence": [],
         "course": [
           {
-            "title":"",
-            "content":""
+            "title": "",
+            "content": ""
           }
         ],
         "keywords": "",
