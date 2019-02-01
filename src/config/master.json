@@ -124,9 +124,21 @@
       },
       {
         "title": "What is React made up of",
-        "keywords": "",
-        "notes": "",
-        "summarize": "",
+        "keywords": [
+          "Functional Component",
+          "Class Component",
+          "Component",
+          "Props",
+          "State"
+        ],
+        "notes": ["Dalam memulai project menggunakan framework react pertama- tama kita harus mengetahui dahulu apa itu sturuktur-struktur penulisan code . Pertama kita harus mengenal apa itu Class Component dan Functional Component ","Class Compoenent adalah struktur penulisan code di dalam kelas . sedangkan Functional Component adalah struktur penulisan kode didalam function ","Perbedaan dari keduanya adalah jika kita menggunakan Class berarti stuktur code yang kita gunakan jauh lebih kompleks dibandingkan jika menggunakan struktur Functional Component . Tetapi Class Component memiliki keunggulan dibandingkan Functional Component antara lain dapat menggunakan State serta menggunakan teknologi Asyncronous","Props dan State","Props adalah properti yang dapat dipanggil diluar class . Apa itu property ? property adalah component atau element - element custom yang dapat dipanggil dalam suatu class","State adalah tempat menyimpan data sementara didalam sebuah class"],
+        "summarize": "Antara Class Component maupun Functional Component masing masing mempunyai kelebihan , tergantung kebutuhan developer dalam menggunakannya",
+        "usable_link":[
+          {
+            "url":"https://medium.com/@brilyandika.andhana/apa-itu-props-dan-state-dalam-react-a21d80c6ab0d",
+            "title":"Props dan State"
+          }
+        ],
         "detail": [
           "Props & State",
           "Classes Vs. Functions",
